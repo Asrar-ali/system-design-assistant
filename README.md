@@ -1,15 +1,3 @@
----
-title: System Design Interview Assistant
-emoji: 🏗️
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: "1.54.0"
-app_file: app.py
-pinned: false
-license: mit
----
-
 # System Design Interview Assistant
 
 **RAG-powered chat interface for system design interview preparation**
