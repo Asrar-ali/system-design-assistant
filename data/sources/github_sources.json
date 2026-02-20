@@ -1,0 +1,180 @@
+[
+  {
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "databases",
+      "caching",
+      "load_balancing",
+      "distributed_systems"
+    ],
+    "authority_level": "high",
+    "title": "The System Design Primer",
+    "author": "donnemartin",
+    "validated": true,
+    "validation_notes": "THE canonical system design resource. Comprehensive coverage with clear explanations, diagrams, and real-world examples. Content ranges from basics (DNS, HTTP) to advanced (sharding, CAP theorem). Verified quality through README and sample markdown files on scalability, availability patterns.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 400,
+    "github_repo_stars": 275000
+  },
+  {
+    "url": "https://github.com/karanpratapsingh/system-design",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "databases",
+      "caching",
+      "distributed_systems",
+      "api_design"
+    ],
+    "authority_level": "high",
+    "title": "System Design",
+    "author": "karanpratapsingh",
+    "validated": true,
+    "validation_notes": "Modern comprehensive guide with excellent diagrams and structured explanations. Covers fundamentals (networking, DNS) through advanced topics (replication, CAP theorem). Strong technical depth appropriate for interviews. Verified quality through content on databases, caching, and message queues.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 350,
+    "github_repo_stars": 32000
+  },
+  {
+    "url": "https://github.com/checkcheckzz/system-design-interview",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general"
+    ],
+    "authority_level": "high",
+    "title": "System Design Interview",
+    "author": "checkcheckzz",
+    "validated": true,
+    "validation_notes": "Question-focused resource with company-specific examples (Uber, Netflix, Twitter). Links to high-quality external resources and papers. Complements primer repos with interview-specific focus. Verified quality through linked articles and question structure.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 100,
+    "github_repo_stars": 8000
+  },
+  {
+    "url": "https://github.com/madd86/awesome-system-design",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "distributed_systems"
+    ],
+    "authority_level": "community",
+    "title": "Awesome System Design",
+    "author": "madd86",
+    "validated": true,
+    "validation_notes": "Well-curated collection linking to high-quality external resources (engineering blogs, papers, videos). Organized by topic with brief descriptions. Serves as quality gateway to FAANG blogs and academic content. Verified 3-5 linked resources for substantive content.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 50,
+    "github_repo_stars": 12000
+  },
+  {
+    "url": "https://github.com/binhnguyennus/awesome-scalability",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "scalability",
+      "distributed_systems",
+      "databases",
+      "caching"
+    ],
+    "authority_level": "community",
+    "title": "Awesome Scalability",
+    "author": "binhnguyennus",
+    "validated": true,
+    "validation_notes": "Extensive curated list of scalability patterns, case studies, and papers. Links to real-world engineering blogs (Uber, Netflix, Airbnb). Strong focus on distributed systems and data infrastructure. Verified quality through sample case studies and blog links.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 120,
+    "github_repo_stars": 60000
+  },
+  {
+    "url": "https://github.com/ByteByteGoHq/system-design-101",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "databases",
+      "load_balancing",
+      "api_design"
+    ],
+    "authority_level": "high",
+    "title": "System Design 101",
+    "author": "ByteByteGoHq",
+    "validated": true,
+    "validation_notes": "Visual-first approach with excellent diagrams from ByteByteGo team. Covers fundamentals through practical examples. Strong explanations of REST, GraphQL, databases, and caching. Verified quality through README diagrams and explanatory content on API design patterns.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 200,
+    "github_repo_stars": 65000
+  },
+  {
+    "url": "https://github.com/ashishps1/awesome-system-design-resources",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "databases",
+      "distributed_systems"
+    ],
+    "authority_level": "community",
+    "title": "Awesome System Design Resources",
+    "author": "ashishps1",
+    "validated": true,
+    "validation_notes": "Comprehensive collection of blogs, videos, courses, and case studies. Well-organized by topic with quality curation. Links to real-world designs (WhatsApp, Instagram, Netflix). Verified quality through sample case study links and blog references.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 80,
+    "github_repo_stars": 18000
+  },
+  {
+    "url": "https://github.com/InterviewReady/system-design-resources",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "distributed_systems"
+    ],
+    "authority_level": "high",
+    "title": "System Design Resources",
+    "author": "InterviewReady",
+    "validated": true,
+    "validation_notes": "Interview-focused resource with structured learning path. Covers fundamentals, patterns, and real-world examples. Strong emphasis on trade-offs and design decisions. Verified quality through content on scalability patterns and distributed systems concepts.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 180,
+    "github_repo_stars": 15000
+  },
+  {
+    "url": "https://github.com/donnemartin/interactive-coding-challenges",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability"
+    ],
+    "authority_level": "high",
+    "title": "Interactive Coding Challenges",
+    "author": "donnemartin",
+    "validated": true,
+    "validation_notes": "Companion to system-design-primer with hands-on Python challenges covering scalability scenarios. Includes solutions and test cases. Provides practical implementation perspective on system design concepts. Verified quality through sample challenges on scalability and object-oriented design.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 150,
+    "github_repo_stars": 29000
+  },
+  {
+    "url": "https://github.com/soulmachine/system-design",
+    "source_type": "github_repo",
+    "topic_categories": [
+      "general",
+      "scalability",
+      "databases",
+      "distributed_systems"
+    ],
+    "authority_level": "high",
+    "title": "System Design",
+    "author": "soulmachine",
+    "validated": true,
+    "validation_notes": "Detailed explanations with mathematical analysis of performance trade-offs. Covers CAP theorem, consistent hashing, database sharding with depth. Strong technical rigor appropriate for advanced understanding. Verified quality through chapters on distributed systems and storage.",
+    "curated_date": "2026-02-07T20:05:00Z",
+    "estimated_chunks": 200,
+    "github_repo_stars": 9000
+  }
+]

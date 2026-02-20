@@ -1,0 +1,310 @@
+{
+  "retrieval_mode": "hybrid",
+  "precision_at_k": 0.473,
+  "recall_at_k": 0.789,
+  "num_queries": 30,
+  "top_k": 5,
+  "min_similarity": 0.3,
+  "per_query_results": [
+    {
+      "question": "How do you design a URL shortener like bit.ly?",
+      "topic": "distributed_systems",
+      "difficulty": "medium",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "What are the trade-offs between SQL and NoSQL databases?",
+      "topic": "databases",
+      "difficulty": "medium",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Explain consistent hashing and when to use it",
+      "topic": "distributed_systems",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "How does a CDN improve website performance?",
+      "topic": "caching",
+      "difficulty": "easy",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "Design a rate limiter for an API",
+      "topic": "api_design",
+      "difficulty": "medium",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "What is database sharding and when should you use it?",
+      "topic": "databases",
+      "difficulty": "medium",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "How do you design Twitter's newsfeed?",
+      "topic": "distributed_systems",
+      "difficulty": "hard",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Explain the CAP theorem with examples",
+      "topic": "distributed_systems",
+      "difficulty": "medium",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "How does Redis implement caching?",
+      "topic": "caching",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Design a web crawler like Google's",
+      "topic": "distributed_systems",
+      "difficulty": "hard",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "How do you design a parking lot system?",
+      "topic": "general",
+      "difficulty": "medium",
+      "precision": 0.0,
+      "recall": 0.0,
+      "num_retrieved": 5,
+      "num_relevant": 0,
+      "relevant_in_top_k": 0
+    },
+    {
+      "question": "What is eventual consistency?",
+      "topic": "distributed_systems",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Design YouTube's video streaming service",
+      "topic": "scalability",
+      "difficulty": "hard",
+      "precision": 0.2,
+      "recall": 0.333,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 1
+    },
+    {
+      "question": "How does load balancing work?",
+      "topic": "load_balancing",
+      "difficulty": "easy",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "Compare REST vs GraphQL APIs",
+      "topic": "api_design",
+      "difficulty": "medium",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "How do you scale a database horizontally?",
+      "topic": "databases",
+      "difficulty": "medium",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "What is a Bloom filter and when to use it?",
+      "topic": "scalability",
+      "difficulty": "medium",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "Design Instagram's photo storage",
+      "topic": "databases",
+      "difficulty": "hard",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Explain database indexing strategies",
+      "topic": "databases",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "How does memcached differ from Redis?",
+      "topic": "caching",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Design a chat application like WhatsApp",
+      "topic": "distributed_systems",
+      "difficulty": "hard",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "What are microservices and their trade-offs?",
+      "topic": "scalability",
+      "difficulty": "medium",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "How do you implement API versioning?",
+      "topic": "api_design",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Design a search autocomplete system",
+      "topic": "general",
+      "difficulty": "medium",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "What is the difference between partitioning and replication?",
+      "topic": "databases",
+      "difficulty": "easy",
+      "precision": 0.0,
+      "recall": 0.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 0
+    },
+    {
+      "question": "How does HTTP caching work?",
+      "topic": "caching",
+      "difficulty": "easy",
+      "precision": 0.6,
+      "recall": 1.0,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 3
+    },
+    {
+      "question": "Design Uber's ride matching system",
+      "topic": "distributed_systems",
+      "difficulty": "hard",
+      "precision": 0.2,
+      "recall": 0.333,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 1
+    },
+    {
+      "question": "Explain message queues with examples",
+      "topic": "scalability",
+      "difficulty": "easy",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "How do you design a notification system?",
+      "topic": "distributed_systems",
+      "difficulty": "medium",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    },
+    {
+      "question": "What are the benefits of denormalization?",
+      "topic": "databases",
+      "difficulty": "medium",
+      "precision": 0.4,
+      "recall": 0.667,
+      "num_retrieved": 5,
+      "num_relevant": 3,
+      "relevant_in_top_k": 2
+    }
+  ]
+}

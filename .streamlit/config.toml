@@ -1,0 +1,40 @@
+# Streamlit Configuration for System Design Interview Assistant
+# Professional theme configuration with light/dark mode support
+# Users toggle themes via Settings menu (hamburger icon → Settings → Theme)
+
+[theme]
+# Base theme configuration
+# Typography: sans serif fonts for readability
+font = "sans serif"
+
+# Color palette (consistent across light/dark themes)
+primaryColor = "#5591f5"  # Blue for primary actions/links
+
+
+[theme.light]
+# Light theme (default for most users)
+backgroundColor = "#ffffff"          # Pure white background
+secondaryBackgroundColor = "#f0f2f6" # Light gray for cards/containers
+textColor = "#262730"                # Dark gray text (high contrast)
+linkColor = "#0068c9"                # Blue links for citations
+
+# Code blocks (matches secondary background)
+codeBackgroundColor = "#f0f2f6"
+
+
+[theme.dark]
+# Dark theme (auto-detected from OS/browser preference)
+backgroundColor = "#0e1117"          # Near black background
+secondaryBackgroundColor = "#262730" # Dark gray for cards/containers
+textColor = "#fafafa"                # Off-white text (reduces eye strain)
+linkColor = "#68b0f7"                # Lighter blue for dark mode readability
+
+# Code blocks (matches secondary background)
+codeBackgroundColor = "#262730"
+
+
+# Note: Theme switching is handled by Streamlit automatically
+# - Users access via hamburger menu → Settings → Theme
+# - Auto-detects OS dark mode preference on first load
+# - Preference persists across sessions
+# - DO NOT create custom toggle button (uses unstable internal APIs)

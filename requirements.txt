@@ -1,0 +1,16 @@
+streamlit
+python-dotenv
+pandas
+chromadb
+sentence-transformers
+groq
+openai
+bm25s
+PyStemmer
+tiktoken
+langchain-text-splitters
+youtube-transcript-api
+beautifulsoup4
+lxml
+PyGithub
+requests

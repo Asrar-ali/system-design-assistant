@@ -1,0 +1,548 @@
+[
+  {
+    "question": "How do you design a URL shortener like bit.ly?",
+    "relevant_chunk_ids": [
+      "78980185_1326",
+      "78980185_1763",
+      "78980185_1398"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "medium",
+    "query_type": "design"
+  },
+  {
+    "question": "What are the trade-offs between SQL and NoSQL databases?",
+    "relevant_chunk_ids": [
+      "4c65f769_21",
+      "83806cc9_4",
+      "84a70206_22"
+    ],
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "comparison"
+  },
+  {
+    "question": "Explain consistent hashing and when to use it",
+    "relevant_chunk_ids": [
+      "f4ce9d75_0",
+      "78980185_685",
+      "785f61ea_33"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "How does a CDN improve website performance?",
+    "relevant_chunk_ids": [
+      "459dbe54_168",
+      "78980185_287",
+      "78980185_301"
+    ],
+    "topic": "caching",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "Design a rate limiter for an API",
+    "relevant_chunk_ids": [
+      "78980185_1111",
+      "69521e31_11",
+      "24c27d17_4"
+    ],
+    "topic": "api_design",
+    "difficulty": "medium",
+    "query_type": "design"
+  },
+  {
+    "question": "What is database sharding and when should you use it?",
+    "relevant_chunk_ids": [
+      "f0570e2c_8",
+      "75d1ca44_2",
+      "75d1ca44_14"
+    ],
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "concept"
+  },
+  {
+    "question": "How do you design Twitter's newsfeed?",
+    "relevant_chunk_ids": [
+      "459dbe54_530",
+      "78980185_1604",
+      "78980185_1601"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "hard",
+    "query_type": "design"
+  },
+  {
+    "question": "Explain the CAP theorem with examples",
+    "relevant_chunk_ids": [
+      "fd28dd36_2",
+      "fd28dd36_0",
+      "459dbe54_122"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "medium",
+    "query_type": "concept"
+  },
+  {
+    "question": "How does Redis implement caching?",
+    "relevant_chunk_ids": [
+      "6effa3a4_0",
+      "6effa3a4_2",
+      "6effa3a4_1"
+    ],
+    "topic": "caching",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "Design a web crawler like Google's",
+    "relevant_chunk_ids": [
+      "a62eeaa8_0",
+      "459dbe54_522",
+      "459dbe54_518"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "hard",
+    "query_type": "design"
+  },
+  {
+    "question": "How do you design a parking lot system?",
+    "relevant_chunk_ids": [],
+    "topic": "general",
+    "difficulty": "medium",
+    "query_type": "design"
+  },
+  {
+    "question": "What is eventual consistency?",
+    "relevant_chunk_ids": [
+      "e0dad130_2",
+      "78980185_573",
+      "83806cc9_8"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "Design YouTube's video streaming service",
+    "relevant_chunk_ids": [
+      "78980185_1709",
+      "78980185_1744",
+      "87ca4d3c_30"
+    ],
+    "topic": "scalability",
+    "difficulty": "hard",
+    "query_type": "design"
+  },
+  {
+    "question": "How does load balancing work?",
+    "relevant_chunk_ids": [
+      "78980185_153",
+      "78980185_225",
+      "35ce6156_3"
+    ],
+    "topic": "load_balancing",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "Compare REST vs GraphQL APIs",
+    "relevant_chunk_ids": [
+      "dc3ee40c_2",
+      "dc3ee40c_0",
+      "83806cc9_9"
+    ],
+    "topic": "api_design",
+    "difficulty": "medium",
+    "query_type": "comparison"
+  },
+  {
+    "question": "How do you scale a database horizontally?",
+    "relevant_chunk_ids": [
+      "78980185_1910",
+      "459dbe54_243",
+      "d1529127_24"
+    ],
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "design"
+  },
+  {
+    "question": "What is a Bloom filter and when to use it?",
+    "relevant_chunk_ids": [
+      "c9ae5035_4",
+      "c9ae5035_8",
+      "69521e31_14"
+    ],
+    "topic": "scalability",
+    "difficulty": "medium",
+    "query_type": "concept"
+  },
+  {
+    "question": "Design Instagram's photo storage",
+    "relevant_chunk_ids": [
+      "f939c0b7_49",
+      "f939c0b7_74",
+      "459dbe54_528"
+    ],
+    "topic": "databases",
+    "difficulty": "hard",
+    "query_type": "design"
+  },
+  {
+    "question": "Explain database indexing strategies",
+    "relevant_chunk_ids": [
+      "78980185_492",
+      "8a1404a8_19",
+      "8a1404a8_20"
+    ],
+    "topic": "databases",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "How does memcached differ from Redis?",
+    "relevant_chunk_ids": [
+      "532259e1_2",
+      "532259e1_0",
+      "69830282_170"
+    ],
+    "topic": "caching",
+    "difficulty": "easy",
+    "query_type": "comparison"
+  },
+  {
+    "question": "Design a chat application like WhatsApp",
+    "relevant_chunk_ids": [
+      "f6aef88c_0",
+      "78980185_1426",
+      "78980185_1424"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "hard",
+    "query_type": "design"
+  },
+  {
+    "question": "What are microservices and their trade-offs?",
+    "relevant_chunk_ids": [
+      "78980185_870",
+      "aa4d1ce8_3",
+      "f12d4043_5"
+    ],
+    "topic": "scalability",
+    "difficulty": "medium",
+    "query_type": "concept"
+  },
+  {
+    "question": "How do you implement API versioning?",
+    "relevant_chunk_ids": [
+      "78980185_1019",
+      "b4dcbc6b_5",
+      "78980185_1018"
+    ],
+    "topic": "api_design",
+    "difficulty": "easy",
+    "query_type": "design"
+  },
+  {
+    "question": "Design a search autocomplete system",
+    "relevant_chunk_ids": [
+      "785f61ea_222",
+      "a62eeaa8_52",
+      "459dbe54_518"
+    ],
+    "topic": "general",
+    "difficulty": "medium",
+    "query_type": "design"
+  },
+  {
+    "question": "What is the difference between partitioning and replication?",
+    "relevant_chunk_ids": [
+      "459dbe54_98",
+      "459dbe54_256",
+      "78980185_474"
+    ],
+    "topic": "databases",
+    "difficulty": "easy",
+    "query_type": "comparison"
+  },
+  {
+    "question": "How does HTTP caching work?",
+    "relevant_chunk_ids": [
+      "691d9cd4_2",
+      "91fc3793_3",
+      "691d9cd4_3"
+    ],
+    "topic": "caching",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "Design Uber's ride matching system",
+    "relevant_chunk_ids": [
+      "78980185_1843",
+      "7d9ecfe7_9",
+      "78980185_1852"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "hard",
+    "query_type": "design"
+  },
+  {
+    "question": "Explain message queues with examples",
+    "relevant_chunk_ids": [
+      "78980185_762",
+      "8e1d4a87_0",
+      "8e1d4a87_3"
+    ],
+    "topic": "scalability",
+    "difficulty": "easy",
+    "query_type": "concept"
+  },
+  {
+    "question": "How do you design a notification system?",
+    "relevant_chunk_ids": [
+      "a7fb1b6b_0",
+      "a7fb1b6b_2",
+      "a7fb1b6b_1"
+    ],
+    "topic": "distributed_systems",
+    "difficulty": "medium",
+    "query_type": "design"
+  },
+  {
+    "question": "What are the benefits of denormalization?",
+    "relevant_chunk_ids": [
+      "78980185_547",
+      "78980185_546",
+      "78980185_542"
+    ],
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "concept"
+  },
+  {
+    "question": "What is ACID in database transactions?",
+    "topic": "databases",
+    "difficulty": "easy",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "78980185_598",
+      "459dbe54_240",
+      "898561dc_1"
+    ]
+  },
+  {
+    "question": "How do you implement pagination in REST APIs?",
+    "topic": "api_design",
+    "difficulty": "easy",
+    "query_type": "design",
+    "relevant_chunk_ids": [
+      "5d09105d_0",
+      "a56b16ff_25",
+      "5d09105d_2"
+    ]
+  },
+  {
+    "question": "What are the best practices for API authentication?",
+    "topic": "api_design",
+    "difficulty": "medium",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "9e6613ec_2",
+      "d6067c77_5",
+      "f939c0b7_60"
+    ]
+  },
+  {
+    "question": "Compare round-robin versus least-connections load balancing",
+    "topic": "load_balancing",
+    "difficulty": "medium",
+    "query_type": "comparison",
+    "relevant_chunk_ids": [
+      "245ebb93_2",
+      "78980185_185",
+      "459dbe54_159"
+    ]
+  },
+  {
+    "question": "How does session persistence work in load balancers?",
+    "topic": "load_balancing",
+    "difficulty": "medium",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "35ce6156_6",
+      "a56b16ff_14",
+      "87ca4d3c_91"
+    ]
+  },
+  {
+    "question": "Design a global load balancer for multi-region deployment",
+    "topic": "load_balancing",
+    "difficulty": "hard",
+    "query_type": "design",
+    "relevant_chunk_ids": [
+      "459dbe54_182",
+      "99d0df11_114",
+      "988915b1_7"
+    ]
+  },
+  {
+    "question": "Compare vertical scaling versus horizontal scaling",
+    "topic": "scalability",
+    "difficulty": "easy",
+    "query_type": "comparison",
+    "relevant_chunk_ids": [
+      "83806cc9_3",
+      "d1529127_24",
+      "69521e31_29"
+    ]
+  },
+  {
+    "question": "What are the differences between SOAP and REST?",
+    "topic": "api_design",
+    "difficulty": "easy",
+    "query_type": "comparison",
+    "relevant_chunk_ids": [
+      "459dbe54_427",
+      "459dbe54_428",
+      "7d701a52_2"
+    ]
+  },
+  {
+    "question": "Compare WebSocket versus Server-Sent Events for real-time updates",
+    "topic": "general",
+    "difficulty": "medium",
+    "query_type": "comparison",
+    "relevant_chunk_ids": [
+      "78980185_1025",
+      "78980185_1486",
+      "78980185_1049"
+    ]
+  },
+  {
+    "question": "Cassandra versus MongoDB: when to use each?",
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "comparison",
+    "relevant_chunk_ids": [
+      "99d0df11_84",
+      "99d0df11_67",
+      "99d0df11_72"
+    ]
+  },
+  {
+    "question": "Compare synchronous versus asynchronous request processing",
+    "topic": "scalability",
+    "difficulty": "medium",
+    "query_type": "comparison",
+    "relevant_chunk_ids": [
+      "83806cc9_12",
+      "f0a0fc24_12",
+      "78980185_486"
+    ]
+  },
+  {
+    "question": "Explain BASE properties in distributed databases",
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "459dbe54_306",
+      "78980185_564",
+      "78980185_164"
+    ]
+  },
+  {
+    "question": "What is DNS and how does it work?",
+    "topic": "general",
+    "difficulty": "easy",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "7e367427_2",
+      "a56b16ff_193",
+      "a56b16ff_215"
+    ]
+  },
+  {
+    "question": "How does SSL/TLS encryption work?",
+    "topic": "general",
+    "difficulty": "medium",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "78980185_197",
+      "78980185_1281",
+      "78980185_1280"
+    ]
+  },
+  {
+    "question": "What is CORS and why is it important?",
+    "topic": "api_design",
+    "difficulty": "easy",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "78980185_1160",
+      "78980185_1275",
+      "bf0c1aab_4"
+    ]
+  },
+  {
+    "question": "How does Netflix handle video streaming at scale?",
+    "topic": "scalability",
+    "difficulty": "hard",
+    "query_type": "design",
+    "relevant_chunk_ids": [
+      "43131425_2",
+      "a56b16ff_38",
+      "87ca4d3c_13"
+    ]
+  },
+  {
+    "question": "What database does Uber use for geospatial queries?",
+    "topic": "databases",
+    "difficulty": "medium",
+    "query_type": "concept",
+    "relevant_chunk_ids": [
+      "13423f03_6",
+      "ad05b1ef_7",
+      "818cc38a_10"
+    ]
+  },
+  {
+    "question": "How does Google handle billions of searches per day?",
+    "topic": "distributed_systems",
+    "difficulty": "hard",
+    "query_type": "design",
+    "relevant_chunk_ids": [
+      "459dbe54_592",
+      "ac3e8a9f_423",
+      "84a70206_16"
+    ]
+  },
+  {
+    "question": "Design a file sharing service like Dropbox",
+    "topic": "general",
+    "difficulty": "hard",
+    "query_type": "design",
+    "relevant_chunk_ids": [
+      "69521e31_51",
+      "459dbe54_517",
+      "7d9ecfe7_11"
+    ]
+  },
+  {
+    "question": "How do you design a real-time analytics dashboard?",
+    "topic": "general",
+    "difficulty": "medium",
+    "query_type": "design",
+    "relevant_chunk_ids": [
+      "c6f30896_4",
+      "785f61ea_498",
+      "99d0df11_95"
+    ]
+  }
+]

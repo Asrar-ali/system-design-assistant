@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=lX4CrbXMsNQ",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "architecture",
+      "design_patterns"
+    ],
+    "authority_level": "high",
+    "title": "Top 5 Most Used Architecture Patterns",
+    "author": "ByteByteGo",
+    "validated": true,
+    "validation_notes": "Transcript available, 548 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=K0Ta65OqQkY",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "distributed_systems",
+      "databases"
+    ],
+    "authority_level": "high",
+    "title": "CAP Theorem Simplified",
+    "author": "ByteByteGo",
+    "validated": true,
+    "validation_notes": "Transcript available, 1809 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=xpDnVSmNFX0",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "distributed_systems",
+      "message_queue"
+    ],
+    "authority_level": "high",
+    "title": "What is a Message Queue and Where is it used?",
+    "author": "ByteByteGo",
+    "validated": true,
+    "validation_notes": "Transcript available, 1346 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bUHFg8CZFws",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "general",
+      "databases"
+    ],
+    "authority_level": "high",
+    "title": "System Design: URL Shortener",
+    "author": "Gaurav Sen",
+    "validated": true,
+    "validation_notes": "Transcript available, 12866 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 32
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=UzLMhqg3_Wc",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "general",
+      "scalability"
+    ],
+    "authority_level": "medium",
+    "title": "Design Twitter - System Design Interview",
+    "author": "Tech Dummies Narendra L",
+    "validated": true,
+    "validation_notes": "Transcript available, 4644 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=hnpzNAPiC0E",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "real_time",
+      "websockets"
+    ],
+    "authority_level": "medium",
+    "title": "System Design Interview - Chat Application",
+    "author": "Tech Dummies Narendra L",
+    "validated": true,
+    "validation_notes": "Transcript available, 6943 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=cODCpXtPHbQ",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "scalability",
+      "rate_limiting"
+    ],
+    "authority_level": "high",
+    "title": "System Design: Design a Rate Limiter",
+    "author": "Gaurav Sen",
+    "validated": true,
+    "validation_notes": "Transcript available, 4472 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=FU4WlwfS3G0",
+    "source_type": "youtube_video",
+    "topic_categories": [
+      "architecture",
+      "microservices"
+    ],
+    "authority_level": "high",
+    "title": "API Gateway Explained",
+    "author": "ByteByteGo",
+    "validated": true,
+    "validation_notes": "Transcript available, 5288 words, system design terminology verified",
+    "curated_date": "2026-02-07T20:11:40.818702Z",
+    "estimated_chunks": 20
+  }
+]

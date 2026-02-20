@@ -1,0 +1,13 @@
+# Development and Testing Dependencies
+# Install with: pip install -r requirements-dev.txt
+# These are separate from requirements.txt as they're not needed in production
+
+black==26.1.0
+coverage==7.13.3
+iniconfig==2.3.0
+pathspec==1.0.4
+pluggy==1.6.0
+pytest==9.0.2
+pytest-cov==7.0.0
+pytokens==0.4.1
+ruff==0.15.0

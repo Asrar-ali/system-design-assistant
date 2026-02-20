@@ -1,0 +1,2291 @@
+# HUMAN EVALUATION TEMPLATE - COMPLETED (MOCK DATA)
+#
+# NOTE: These are MOCK ratings generated for infrastructure demonstration.
+# Real human evaluation would involve actual raters following the rubric.
+#
+# Mock ratings simulate realistic variance:
+#   - Dimension-based quality differences (citations weaker than correctness)
+#   - Per-question variance (some questions harder)
+#   - Inter-rater disagreement (kappa ~0.6-0.8 range)
+#
+question_id,question,answer,contexts,cited_sources,dimension,rater_1,rater_2,rater_3,notes
+0,How does SSL/TLS encryption work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"There are three main components to what the TLS protocol accomplishes:  
+- **Encryption**: hides the data being transferred from third parties.
+- **Authentication**: ensures that the parties exchanging information are who they claim to be.
+
+---
+
+- **Persistence connections**: Allowing a server to open a persistent connection with a client such as a WebSocket.
+- **Encryption**: Handling encrypted connections such as TLS and SSL.
+
+---
+
+called Secure Sockets Layer (SSL). A primary use case of TLS is encrypting the communication between web applications and servers.
+
+---
+
+*   **SSL Termination**
+Load balancers can offload SSL/TLS encryption and decryption tasks from backend servers, reducing their workload and improving overall performance.  
+*   **Session Persistence**
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)",[],correctness,4.0,4.0,5.0,
+0,How does SSL/TLS encryption work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"There are three main components to what the TLS protocol accomplishes:  
+- **Encryption**: hides the data being transferred from third parties.
+- **Authentication**: ensures that the parties exchanging information are who they claim to be.
+
+---
+
+- **Persistence connections**: Allowing a server to open a persistent connection with a client such as a WebSocket.
+- **Encryption**: Handling encrypted connections such as TLS and SSL.
+
+---
+
+called Secure Sockets Layer (SSL). A primary use case of TLS is encrypting the communication between web applications and servers.
+
+---
+
+*   **SSL Termination**
+Load balancers can offload SSL/TLS encryption and decryption tasks from backend servers, reducing their workload and improving overall performance.  
+*   **Session Persistence**
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)",[],completeness,3.0,4.0,4.0,
+0,How does SSL/TLS encryption work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"There are three main components to what the TLS protocol accomplishes:  
+- **Encryption**: hides the data being transferred from third parties.
+- **Authentication**: ensures that the parties exchanging information are who they claim to be.
+
+---
+
+- **Persistence connections**: Allowing a server to open a persistent connection with a client such as a WebSocket.
+- **Encryption**: Handling encrypted connections such as TLS and SSL.
+
+---
+
+called Secure Sockets Layer (SSL). A primary use case of TLS is encrypting the communication between web applications and servers.
+
+---
+
+*   **SSL Termination**
+Load balancers can offload SSL/TLS encryption and decryption tasks from backend servers, reducing their workload and improving overall performance.  
+*   **Session Persistence**
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)",[],relevance,4.0,4.0,4.0,
+0,How does SSL/TLS encryption work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"There are three main components to what the TLS protocol accomplishes:  
+- **Encryption**: hides the data being transferred from third parties.
+- **Authentication**: ensures that the parties exchanging information are who they claim to be.
+
+---
+
+- **Persistence connections**: Allowing a server to open a persistent connection with a client such as a WebSocket.
+- **Encryption**: Handling encrypted connections such as TLS and SSL.
+
+---
+
+called Secure Sockets Layer (SSL). A primary use case of TLS is encrypting the communication between web applications and servers.
+
+---
+
+*   **SSL Termination**
+Load balancers can offload SSL/TLS encryption and decryption tasks from backend servers, reducing their workload and improving overall performance.  
+*   **Session Persistence**
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)",[],clarity,3.0,3.0,4.0,
+0,How does SSL/TLS encryption work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"There are three main components to what the TLS protocol accomplishes:  
+- **Encryption**: hides the data being transferred from third parties.
+- **Authentication**: ensures that the parties exchanging information are who they claim to be.
+
+---
+
+- **Persistence connections**: Allowing a server to open a persistent connection with a client such as a WebSocket.
+- **Encryption**: Handling encrypted connections such as TLS and SSL.
+
+---
+
+called Secure Sockets Layer (SSL). A primary use case of TLS is encrypting the communication between web applications and servers.
+
+---
+
+*   **SSL Termination**
+Load balancers can offload SSL/TLS encryption and decryption tasks from backend servers, reducing their workload and improving overall performance.  
+*   **Session Persistence**
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)",[],citations,3.0,2.0,2.0,
+1,What is database sharding and when should you use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## What is Database Sharding?  
+Database sharding is a type of database partitioning that separates very large databases into smaller, faster, more easily managed parts called data shards. The word shard means a small piece of something bigger.
+
+---
+
+### Sharding Key  
+A sharding key is a column in the database table that determines how the data is distributed across the shards. The sharding key is used by the sharding algorithm to determine which shard a particular row of data should be stored in.
+
+---
+
+## 7. Sharding  
+Split your database tables into smaller pieces and spread them across servers. Used for scaling the writes as well as the reads.
+
+---
+
+### What kind of database should we use?
+
+---
+
+It seems that no matter what the use case, PostgreSQL supports it. When in doubt, you can simply use PostgreSQL.",[],correctness,5.0,5.0,4.0,
+1,What is database sharding and when should you use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## What is Database Sharding?  
+Database sharding is a type of database partitioning that separates very large databases into smaller, faster, more easily managed parts called data shards. The word shard means a small piece of something bigger.
+
+---
+
+### Sharding Key  
+A sharding key is a column in the database table that determines how the data is distributed across the shards. The sharding key is used by the sharding algorithm to determine which shard a particular row of data should be stored in.
+
+---
+
+## 7. Sharding  
+Split your database tables into smaller pieces and spread them across servers. Used for scaling the writes as well as the reads.
+
+---
+
+### What kind of database should we use?
+
+---
+
+It seems that no matter what the use case, PostgreSQL supports it. When in doubt, you can simply use PostgreSQL.",[],completeness,3.0,3.0,3.0,
+1,What is database sharding and when should you use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## What is Database Sharding?  
+Database sharding is a type of database partitioning that separates very large databases into smaller, faster, more easily managed parts called data shards. The word shard means a small piece of something bigger.
+
+---
+
+### Sharding Key  
+A sharding key is a column in the database table that determines how the data is distributed across the shards. The sharding key is used by the sharding algorithm to determine which shard a particular row of data should be stored in.
+
+---
+
+## 7. Sharding  
+Split your database tables into smaller pieces and spread them across servers. Used for scaling the writes as well as the reads.
+
+---
+
+### What kind of database should we use?
+
+---
+
+It seems that no matter what the use case, PostgreSQL supports it. When in doubt, you can simply use PostgreSQL.",[],relevance,4.0,4.0,4.0,
+1,What is database sharding and when should you use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## What is Database Sharding?  
+Database sharding is a type of database partitioning that separates very large databases into smaller, faster, more easily managed parts called data shards. The word shard means a small piece of something bigger.
+
+---
+
+### Sharding Key  
+A sharding key is a column in the database table that determines how the data is distributed across the shards. The sharding key is used by the sharding algorithm to determine which shard a particular row of data should be stored in.
+
+---
+
+## 7. Sharding  
+Split your database tables into smaller pieces and spread them across servers. Used for scaling the writes as well as the reads.
+
+---
+
+### What kind of database should we use?
+
+---
+
+It seems that no matter what the use case, PostgreSQL supports it. When in doubt, you can simply use PostgreSQL.",[],clarity,3.0,4.0,3.0,
+1,What is database sharding and when should you use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## What is Database Sharding?  
+Database sharding is a type of database partitioning that separates very large databases into smaller, faster, more easily managed parts called data shards. The word shard means a small piece of something bigger.
+
+---
+
+### Sharding Key  
+A sharding key is a column in the database table that determines how the data is distributed across the shards. The sharding key is used by the sharding algorithm to determine which shard a particular row of data should be stored in.
+
+---
+
+## 7. Sharding  
+Split your database tables into smaller pieces and spread them across servers. Used for scaling the writes as well as the reads.
+
+---
+
+### What kind of database should we use?
+
+---
+
+It seems that no matter what the use case, PostgreSQL supports it. When in doubt, you can simply use PostgreSQL.",[],citations,3.0,3.0,3.0,
+2,How do you design a URL shortener like bit.ly?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# URL Shortener  
+Let's design a URL shortener, similar to services like [Bitly](https://bitly.com), [TinyURL](https://tinyurl.com/app).
+
+---
+
+**Long URL**: [https://karanpratapsingh.com/courses/system-design/url-shortener](https://karanpratapsingh.com/courses/system-design/url-shortener)  
+**Short URL**: [https://bit.ly/3I71d3o](https://bit.ly/3I71d3o)
+
+---
+
+![url-shortener-basic-design](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/url-shortener/url-shortener-basic-design.png)  
+Here's how it works:  
+**Creating a new URL**
+
+---
+
+_For more details, refer to the [URL Shortener](https://karanpratapsingh.com/courses/system-design/url-shortener) system design._
+
+---
+
+## 💻 System Design Interview Problems  
+### Easy
+- [Design URL Shortener like TinyURL](https://algomaster.io/learn/system-design-interviews/design-url-shortener)",[],correctness,4.0,4.0,4.0,
+2,How do you design a URL shortener like bit.ly?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# URL Shortener  
+Let's design a URL shortener, similar to services like [Bitly](https://bitly.com), [TinyURL](https://tinyurl.com/app).
+
+---
+
+**Long URL**: [https://karanpratapsingh.com/courses/system-design/url-shortener](https://karanpratapsingh.com/courses/system-design/url-shortener)  
+**Short URL**: [https://bit.ly/3I71d3o](https://bit.ly/3I71d3o)
+
+---
+
+![url-shortener-basic-design](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/url-shortener/url-shortener-basic-design.png)  
+Here's how it works:  
+**Creating a new URL**
+
+---
+
+_For more details, refer to the [URL Shortener](https://karanpratapsingh.com/courses/system-design/url-shortener) system design._
+
+---
+
+## 💻 System Design Interview Problems  
+### Easy
+- [Design URL Shortener like TinyURL](https://algomaster.io/learn/system-design-interviews/design-url-shortener)",[],completeness,3.0,3.0,3.0,
+2,How do you design a URL shortener like bit.ly?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# URL Shortener  
+Let's design a URL shortener, similar to services like [Bitly](https://bitly.com), [TinyURL](https://tinyurl.com/app).
+
+---
+
+**Long URL**: [https://karanpratapsingh.com/courses/system-design/url-shortener](https://karanpratapsingh.com/courses/system-design/url-shortener)  
+**Short URL**: [https://bit.ly/3I71d3o](https://bit.ly/3I71d3o)
+
+---
+
+![url-shortener-basic-design](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/url-shortener/url-shortener-basic-design.png)  
+Here's how it works:  
+**Creating a new URL**
+
+---
+
+_For more details, refer to the [URL Shortener](https://karanpratapsingh.com/courses/system-design/url-shortener) system design._
+
+---
+
+## 💻 System Design Interview Problems  
+### Easy
+- [Design URL Shortener like TinyURL](https://algomaster.io/learn/system-design-interviews/design-url-shortener)",[],relevance,4.0,4.0,4.0,
+2,How do you design a URL shortener like bit.ly?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# URL Shortener  
+Let's design a URL shortener, similar to services like [Bitly](https://bitly.com), [TinyURL](https://tinyurl.com/app).
+
+---
+
+**Long URL**: [https://karanpratapsingh.com/courses/system-design/url-shortener](https://karanpratapsingh.com/courses/system-design/url-shortener)  
+**Short URL**: [https://bit.ly/3I71d3o](https://bit.ly/3I71d3o)
+
+---
+
+![url-shortener-basic-design](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/url-shortener/url-shortener-basic-design.png)  
+Here's how it works:  
+**Creating a new URL**
+
+---
+
+_For more details, refer to the [URL Shortener](https://karanpratapsingh.com/courses/system-design/url-shortener) system design._
+
+---
+
+## 💻 System Design Interview Problems  
+### Easy
+- [Design URL Shortener like TinyURL](https://algomaster.io/learn/system-design-interviews/design-url-shortener)",[],clarity,4.0,4.0,4.0,
+2,How do you design a URL shortener like bit.ly?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# URL Shortener  
+Let's design a URL shortener, similar to services like [Bitly](https://bitly.com), [TinyURL](https://tinyurl.com/app).
+
+---
+
+**Long URL**: [https://karanpratapsingh.com/courses/system-design/url-shortener](https://karanpratapsingh.com/courses/system-design/url-shortener)  
+**Short URL**: [https://bit.ly/3I71d3o](https://bit.ly/3I71d3o)
+
+---
+
+![url-shortener-basic-design](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/url-shortener/url-shortener-basic-design.png)  
+Here's how it works:  
+**Creating a new URL**
+
+---
+
+_For more details, refer to the [URL Shortener](https://karanpratapsingh.com/courses/system-design/url-shortener) system design._
+
+---
+
+## 💻 System Design Interview Problems  
+### Easy
+- [Design URL Shortener like TinyURL](https://algomaster.io/learn/system-design-interviews/design-url-shortener)",[],citations,2.0,3.0,3.0,
+3,What is a Bloom filter and when to use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"### Option 3: Bloom Filter  
+This option is preferred. Bloom filter was proposed by Burton Howard Bloom in 1970. It is a probabilistic data structure that is used to test whether an element is a member of a set.
+
+---
+
+The diagram below illustrates how the Bloom filter works. The basic data structure for the Bloom filter is Bit Vector. Each bit represents a hashed value.
+
+---
+
+- [Databases Types](https://blog.algomaster.io/p/15-types-of-databases)
+- [Bloom Filters](https://algomaster.io/learn/system-design/bloom-filters)
+
+---
+
+*   **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist
+
+---
+
+永远不要忘了设计应该是面向未来的，如果通过更换更好的算法，能节省数十倍的内存（bitmap vs hashmap），或者数十倍的运算（bloom filter pre-filter vs raw computation），那么你省下的不仅仅是当下的资源（或者金钱），还有未来的时间 —— 因为，当你的应用有10倍的流量时，你还能够应对自如。",[],correctness,4.0,3.0,3.0,
+3,What is a Bloom filter and when to use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"### Option 3: Bloom Filter  
+This option is preferred. Bloom filter was proposed by Burton Howard Bloom in 1970. It is a probabilistic data structure that is used to test whether an element is a member of a set.
+
+---
+
+The diagram below illustrates how the Bloom filter works. The basic data structure for the Bloom filter is Bit Vector. Each bit represents a hashed value.
+
+---
+
+- [Databases Types](https://blog.algomaster.io/p/15-types-of-databases)
+- [Bloom Filters](https://algomaster.io/learn/system-design/bloom-filters)
+
+---
+
+*   **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist
+
+---
+
+永远不要忘了设计应该是面向未来的，如果通过更换更好的算法，能节省数十倍的内存（bitmap vs hashmap），或者数十倍的运算（bloom filter pre-filter vs raw computation），那么你省下的不仅仅是当下的资源（或者金钱），还有未来的时间 —— 因为，当你的应用有10倍的流量时，你还能够应对自如。",[],completeness,4.0,4.0,4.0,
+3,What is a Bloom filter and when to use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"### Option 3: Bloom Filter  
+This option is preferred. Bloom filter was proposed by Burton Howard Bloom in 1970. It is a probabilistic data structure that is used to test whether an element is a member of a set.
+
+---
+
+The diagram below illustrates how the Bloom filter works. The basic data structure for the Bloom filter is Bit Vector. Each bit represents a hashed value.
+
+---
+
+- [Databases Types](https://blog.algomaster.io/p/15-types-of-databases)
+- [Bloom Filters](https://algomaster.io/learn/system-design/bloom-filters)
+
+---
+
+*   **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist
+
+---
+
+永远不要忘了设计应该是面向未来的，如果通过更换更好的算法，能节省数十倍的内存（bitmap vs hashmap），或者数十倍的运算（bloom filter pre-filter vs raw computation），那么你省下的不仅仅是当下的资源（或者金钱），还有未来的时间 —— 因为，当你的应用有10倍的流量时，你还能够应对自如。",[],relevance,4.0,4.0,5.0,
+3,What is a Bloom filter and when to use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"### Option 3: Bloom Filter  
+This option is preferred. Bloom filter was proposed by Burton Howard Bloom in 1970. It is a probabilistic data structure that is used to test whether an element is a member of a set.
+
+---
+
+The diagram below illustrates how the Bloom filter works. The basic data structure for the Bloom filter is Bit Vector. Each bit represents a hashed value.
+
+---
+
+- [Databases Types](https://blog.algomaster.io/p/15-types-of-databases)
+- [Bloom Filters](https://algomaster.io/learn/system-design/bloom-filters)
+
+---
+
+*   **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist
+
+---
+
+永远不要忘了设计应该是面向未来的，如果通过更换更好的算法，能节省数十倍的内存（bitmap vs hashmap），或者数十倍的运算（bloom filter pre-filter vs raw computation），那么你省下的不仅仅是当下的资源（或者金钱），还有未来的时间 —— 因为，当你的应用有10倍的流量时，你还能够应对自如。",[],clarity,4.0,3.0,4.0,
+3,What is a Bloom filter and when to use it?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"### Option 3: Bloom Filter  
+This option is preferred. Bloom filter was proposed by Burton Howard Bloom in 1970. It is a probabilistic data structure that is used to test whether an element is a member of a set.
+
+---
+
+The diagram below illustrates how the Bloom filter works. The basic data structure for the Bloom filter is Bit Vector. Each bit represents a hashed value.
+
+---
+
+- [Databases Types](https://blog.algomaster.io/p/15-types-of-databases)
+- [Bloom Filters](https://algomaster.io/learn/system-design/bloom-filters)
+
+---
+
+*   **Using Bloom filter.** A Bloom filter is a data structure that can rapidly tell us whether an element is present in a set or not. If the key exists, the request first goes to the cache and then queries the database if needed. If the key doesn't exist
+
+---
+
+永远不要忘了设计应该是面向未来的，如果通过更换更好的算法，能节省数十倍的内存（bitmap vs hashmap），或者数十倍的运算（bloom filter pre-filter vs raw computation），那么你省下的不仅仅是当下的资源（或者金钱），还有未来的时间 —— 因为，当你的应用有10倍的流量时，你还能够应对自如。",[],citations,3.0,3.0,2.0,
+4,How do you scale a database horizontally?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* The alternative to **Vertical Scaling** is [**Horizontal scaling**](https://github.com/donnemartin/system-design-primer#horizontal-scaling)  
+#### Start with SQL, consider NoSQL
+
+---
+
+To scale out our databases we will need to partition our data. Horizontal partitioning (aka [Sharding](https://karanpratapsingh.com/courses/system-design/sharding)) can be a good first step. We can shard our database either based on existing [partition
+
+---
+
+### Step 4: Scale the design  
+Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?  
+* Load balancer
+* Horizontal scaling
+* Caching
+* Database sharding
+
+---
+
+There are many techniques to scale a relational database: **master-slave replication**, **master-master replication**, **federation**, **sharding**, **denormalization**, and **SQL tuning**.  
+#### Master-slave replication
+
+---
+
+*   Replication helps horizontally scale the database by copying data to multiple nodes",[],correctness,4.0,4.0,4.0,
+4,How do you scale a database horizontally?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* The alternative to **Vertical Scaling** is [**Horizontal scaling**](https://github.com/donnemartin/system-design-primer#horizontal-scaling)  
+#### Start with SQL, consider NoSQL
+
+---
+
+To scale out our databases we will need to partition our data. Horizontal partitioning (aka [Sharding](https://karanpratapsingh.com/courses/system-design/sharding)) can be a good first step. We can shard our database either based on existing [partition
+
+---
+
+### Step 4: Scale the design  
+Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?  
+* Load balancer
+* Horizontal scaling
+* Caching
+* Database sharding
+
+---
+
+There are many techniques to scale a relational database: **master-slave replication**, **master-master replication**, **federation**, **sharding**, **denormalization**, and **SQL tuning**.  
+#### Master-slave replication
+
+---
+
+*   Replication helps horizontally scale the database by copying data to multiple nodes",[],completeness,3.0,3.0,3.0,
+4,How do you scale a database horizontally?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* The alternative to **Vertical Scaling** is [**Horizontal scaling**](https://github.com/donnemartin/system-design-primer#horizontal-scaling)  
+#### Start with SQL, consider NoSQL
+
+---
+
+To scale out our databases we will need to partition our data. Horizontal partitioning (aka [Sharding](https://karanpratapsingh.com/courses/system-design/sharding)) can be a good first step. We can shard our database either based on existing [partition
+
+---
+
+### Step 4: Scale the design  
+Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?  
+* Load balancer
+* Horizontal scaling
+* Caching
+* Database sharding
+
+---
+
+There are many techniques to scale a relational database: **master-slave replication**, **master-master replication**, **federation**, **sharding**, **denormalization**, and **SQL tuning**.  
+#### Master-slave replication
+
+---
+
+*   Replication helps horizontally scale the database by copying data to multiple nodes",[],relevance,4.0,4.0,4.0,
+4,How do you scale a database horizontally?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* The alternative to **Vertical Scaling** is [**Horizontal scaling**](https://github.com/donnemartin/system-design-primer#horizontal-scaling)  
+#### Start with SQL, consider NoSQL
+
+---
+
+To scale out our databases we will need to partition our data. Horizontal partitioning (aka [Sharding](https://karanpratapsingh.com/courses/system-design/sharding)) can be a good first step. We can shard our database either based on existing [partition
+
+---
+
+### Step 4: Scale the design  
+Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?  
+* Load balancer
+* Horizontal scaling
+* Caching
+* Database sharding
+
+---
+
+There are many techniques to scale a relational database: **master-slave replication**, **master-master replication**, **federation**, **sharding**, **denormalization**, and **SQL tuning**.  
+#### Master-slave replication
+
+---
+
+*   Replication helps horizontally scale the database by copying data to multiple nodes",[],clarity,3.0,3.0,3.0,
+4,How do you scale a database horizontally?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* The alternative to **Vertical Scaling** is [**Horizontal scaling**](https://github.com/donnemartin/system-design-primer#horizontal-scaling)  
+#### Start with SQL, consider NoSQL
+
+---
+
+To scale out our databases we will need to partition our data. Horizontal partitioning (aka [Sharding](https://karanpratapsingh.com/courses/system-design/sharding)) can be a good first step. We can shard our database either based on existing [partition
+
+---
+
+### Step 4: Scale the design  
+Identify and address bottlenecks, given the constraints.  For example, do you need the following to address scalability issues?  
+* Load balancer
+* Horizontal scaling
+* Caching
+* Database sharding
+
+---
+
+There are many techniques to scale a relational database: **master-slave replication**, **master-master replication**, **federation**, **sharding**, **denormalization**, and **SQL tuning**.  
+#### Master-slave replication
+
+---
+
+*   Replication helps horizontally scale the database by copying data to multiple nodes",[],citations,3.0,3.0,3.0,
+5,Compare synchronous versus asynchronous request processing,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## 10. Sync vs Async Processing  
+In synchronous processing, tasks are performed one after another.  
+In asynchronous processing, tasks can run in the background. New tasks can be started without waiting for a new task.
+
+---
+
+A good practice is to combine both synchronous and asynchronous commits, where we use asynchronous commits in the processing loop for higher throughput and synchronous commits in exception handling to make sure the last offset is always committed.
+
+---
+
+## Synchronous vs Asynchronous replication
+
+---
+
+- [Synchronous vs. asynchronous communications](https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761)
+- [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+
+---
+
+## Function Invocation  
+AWS Lambda supports synchronous and asynchronous invocation.  
+In synchronous invocation, the caller directly calls the Lambda function using AWS CLI, SDK, or other services.",[],correctness,3.0,3.0,3.0,
+5,Compare synchronous versus asynchronous request processing,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## 10. Sync vs Async Processing  
+In synchronous processing, tasks are performed one after another.  
+In asynchronous processing, tasks can run in the background. New tasks can be started without waiting for a new task.
+
+---
+
+A good practice is to combine both synchronous and asynchronous commits, where we use asynchronous commits in the processing loop for higher throughput and synchronous commits in exception handling to make sure the last offset is always committed.
+
+---
+
+## Synchronous vs Asynchronous replication
+
+---
+
+- [Synchronous vs. asynchronous communications](https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761)
+- [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+
+---
+
+## Function Invocation  
+AWS Lambda supports synchronous and asynchronous invocation.  
+In synchronous invocation, the caller directly calls the Lambda function using AWS CLI, SDK, or other services.",[],completeness,4.0,4.0,3.0,
+5,Compare synchronous versus asynchronous request processing,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## 10. Sync vs Async Processing  
+In synchronous processing, tasks are performed one after another.  
+In asynchronous processing, tasks can run in the background. New tasks can be started without waiting for a new task.
+
+---
+
+A good practice is to combine both synchronous and asynchronous commits, where we use asynchronous commits in the processing loop for higher throughput and synchronous commits in exception handling to make sure the last offset is always committed.
+
+---
+
+## Synchronous vs Asynchronous replication
+
+---
+
+- [Synchronous vs. asynchronous communications](https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761)
+- [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+
+---
+
+## Function Invocation  
+AWS Lambda supports synchronous and asynchronous invocation.  
+In synchronous invocation, the caller directly calls the Lambda function using AWS CLI, SDK, or other services.",[],relevance,4.0,4.0,4.0,
+5,Compare synchronous versus asynchronous request processing,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## 10. Sync vs Async Processing  
+In synchronous processing, tasks are performed one after another.  
+In asynchronous processing, tasks can run in the background. New tasks can be started without waiting for a new task.
+
+---
+
+A good practice is to combine both synchronous and asynchronous commits, where we use asynchronous commits in the processing loop for higher throughput and synchronous commits in exception handling to make sure the last offset is always committed.
+
+---
+
+## Synchronous vs Asynchronous replication
+
+---
+
+- [Synchronous vs. asynchronous communications](https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761)
+- [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+
+---
+
+## Function Invocation  
+AWS Lambda supports synchronous and asynchronous invocation.  
+In synchronous invocation, the caller directly calls the Lambda function using AWS CLI, SDK, or other services.",[],clarity,5.0,4.0,4.0,
+5,Compare synchronous versus asynchronous request processing,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## 10. Sync vs Async Processing  
+In synchronous processing, tasks are performed one after another.  
+In asynchronous processing, tasks can run in the background. New tasks can be started without waiting for a new task.
+
+---
+
+A good practice is to combine both synchronous and asynchronous commits, where we use asynchronous commits in the processing loop for higher throughput and synchronous commits in exception handling to make sure the last offset is always committed.
+
+---
+
+## Synchronous vs Asynchronous replication
+
+---
+
+- [Synchronous vs. asynchronous communications](https://blog.algomaster.io/p/aec1cebf-6060-45a7-8e00-47364ca70761)
+- [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+
+---
+
+## Function Invocation  
+AWS Lambda supports synchronous and asynchronous invocation.  
+In synchronous invocation, the caller directly calls the Lambda function using AWS CLI, SDK, or other services.",[],citations,3.0,3.0,3.0,
+6,How does load balancing work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"and work together toward a common purpose. But with load balancing, servers are not aware of each other. Instead, they react to the requests they receive from the load balancer.
+
+---
+
+Load balancing lets us distribute incoming network traffic across multiple resources ensuring high availability and reliability by sending requests only to resources that are online. This provides the flexibility to add or subtract resources as demand
+
+---
+
+* [How does REST API work?](https://bytebytego.com/guides/how-does-rest-api-work)
+* [Load Balancer vs. API Gateway](https://bytebytego.com/guides/what-are-the-differences-between-a-load-balancer-and-an-api-gateway)
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)
+
+---
+
+Load balancers evenly distribute incoming traffic among multiple servers, preventing any single server from becoming overwhelmed. This helps maintain optimal performance, scalability, and reliability of applications or websites.",[],correctness,4.0,5.0,4.0,
+6,How does load balancing work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"and work together toward a common purpose. But with load balancing, servers are not aware of each other. Instead, they react to the requests they receive from the load balancer.
+
+---
+
+Load balancing lets us distribute incoming network traffic across multiple resources ensuring high availability and reliability by sending requests only to resources that are online. This provides the flexibility to add or subtract resources as demand
+
+---
+
+* [How does REST API work?](https://bytebytego.com/guides/how-does-rest-api-work)
+* [Load Balancer vs. API Gateway](https://bytebytego.com/guides/what-are-the-differences-between-a-load-balancer-and-an-api-gateway)
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)
+
+---
+
+Load balancers evenly distribute incoming traffic among multiple servers, preventing any single server from becoming overwhelmed. This helps maintain optimal performance, scalability, and reliability of applications or websites.",[],completeness,4.0,3.0,4.0,
+6,How does load balancing work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"and work together toward a common purpose. But with load balancing, servers are not aware of each other. Instead, they react to the requests they receive from the load balancer.
+
+---
+
+Load balancing lets us distribute incoming network traffic across multiple resources ensuring high availability and reliability by sending requests only to resources that are online. This provides the flexibility to add or subtract resources as demand
+
+---
+
+* [How does REST API work?](https://bytebytego.com/guides/how-does-rest-api-work)
+* [Load Balancer vs. API Gateway](https://bytebytego.com/guides/what-are-the-differences-between-a-load-balancer-and-an-api-gateway)
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)
+
+---
+
+Load balancers evenly distribute incoming traffic among multiple servers, preventing any single server from becoming overwhelmed. This helps maintain optimal performance, scalability, and reliability of applications or websites.",[],relevance,4.0,4.0,4.0,
+6,How does load balancing work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"and work together toward a common purpose. But with load balancing, servers are not aware of each other. Instead, they react to the requests they receive from the load balancer.
+
+---
+
+Load balancing lets us distribute incoming network traffic across multiple resources ensuring high availability and reliability by sending requests only to resources that are online. This provides the flexibility to add or subtract resources as demand
+
+---
+
+* [How does REST API work?](https://bytebytego.com/guides/how-does-rest-api-work)
+* [Load Balancer vs. API Gateway](https://bytebytego.com/guides/what-are-the-differences-between-a-load-balancer-and-an-api-gateway)
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)
+
+---
+
+Load balancers evenly distribute incoming traffic among multiple servers, preventing any single server from becoming overwhelmed. This helps maintain optimal performance, scalability, and reliability of applications or websites.",[],clarity,3.0,3.0,4.0,
+6,How does load balancing work?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"and work together toward a common purpose. But with load balancing, servers are not aware of each other. Instead, they react to the requests they receive from the load balancer.
+
+---
+
+Load balancing lets us distribute incoming network traffic across multiple resources ensuring high availability and reliability by sending requests only to resources that are online. This provides the flexibility to add or subtract resources as demand
+
+---
+
+* [How does REST API work?](https://bytebytego.com/guides/how-does-rest-api-work)
+* [Load Balancer vs. API Gateway](https://bytebytego.com/guides/what-are-the-differences-between-a-load-balancer-and-an-api-gateway)
+
+---
+
+* [How does SSH work?](https://bytebytego.com/guides/how-does-ssh-work)
+* [How Does a VPN Work?](https://bytebytego.com/guides/how-does-a-vpn-work)
+
+---
+
+Load balancers evenly distribute incoming traffic among multiple servers, preventing any single server from becoming overwhelmed. This helps maintain optimal performance, scalability, and reliability of applications or websites.",[],citations,3.0,3.0,2.0,
+7,What is eventual consistency?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"Eventual consistency is a data consistency model that ensures that updates to a distributed database are eventually reflected across all nodes. Techniques like async replication help achieve eventual consistency.
+
+---
+
+It states that the states will eventually be consistent.
+
+---
+
+## 6. Strong vs Eventual Consistency  
+Strong consistency is when data updates are immediately reflected.  
+Eventual consistency is when data updates are delayed before being available across nodes.
+
+---
+
+* [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
+* [Consistency patterns](#consistency-patterns)
+* [Weak consistency](#weak-consistency)
+* [Eventual consistency](#eventual-consistency)
+
+---
+
+Consistency means that all clients see the same data at the same time, no matter which node they connect to. For this to happen, whenever data is written to one node, it must be instantly forwarded or replicated across all the nodes in the system before",[],correctness,5.0,4.0,4.0,
+7,What is eventual consistency?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"Eventual consistency is a data consistency model that ensures that updates to a distributed database are eventually reflected across all nodes. Techniques like async replication help achieve eventual consistency.
+
+---
+
+It states that the states will eventually be consistent.
+
+---
+
+## 6. Strong vs Eventual Consistency  
+Strong consistency is when data updates are immediately reflected.  
+Eventual consistency is when data updates are delayed before being available across nodes.
+
+---
+
+* [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
+* [Consistency patterns](#consistency-patterns)
+* [Weak consistency](#weak-consistency)
+* [Eventual consistency](#eventual-consistency)
+
+---
+
+Consistency means that all clients see the same data at the same time, no matter which node they connect to. For this to happen, whenever data is written to one node, it must be instantly forwarded or replicated across all the nodes in the system before",[],completeness,4.0,3.0,3.0,
+7,What is eventual consistency?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"Eventual consistency is a data consistency model that ensures that updates to a distributed database are eventually reflected across all nodes. Techniques like async replication help achieve eventual consistency.
+
+---
+
+It states that the states will eventually be consistent.
+
+---
+
+## 6. Strong vs Eventual Consistency  
+Strong consistency is when data updates are immediately reflected.  
+Eventual consistency is when data updates are delayed before being available across nodes.
+
+---
+
+* [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
+* [Consistency patterns](#consistency-patterns)
+* [Weak consistency](#weak-consistency)
+* [Eventual consistency](#eventual-consistency)
+
+---
+
+Consistency means that all clients see the same data at the same time, no matter which node they connect to. For this to happen, whenever data is written to one node, it must be instantly forwarded or replicated across all the nodes in the system before",[],relevance,5.0,5.0,5.0,
+7,What is eventual consistency?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"Eventual consistency is a data consistency model that ensures that updates to a distributed database are eventually reflected across all nodes. Techniques like async replication help achieve eventual consistency.
+
+---
+
+It states that the states will eventually be consistent.
+
+---
+
+## 6. Strong vs Eventual Consistency  
+Strong consistency is when data updates are immediately reflected.  
+Eventual consistency is when data updates are delayed before being available across nodes.
+
+---
+
+* [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
+* [Consistency patterns](#consistency-patterns)
+* [Weak consistency](#weak-consistency)
+* [Eventual consistency](#eventual-consistency)
+
+---
+
+Consistency means that all clients see the same data at the same time, no matter which node they connect to. For this to happen, whenever data is written to one node, it must be instantly forwarded or replicated across all the nodes in the system before",[],clarity,4.0,4.0,3.0,
+7,What is eventual consistency?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"Eventual consistency is a data consistency model that ensures that updates to a distributed database are eventually reflected across all nodes. Techniques like async replication help achieve eventual consistency.
+
+---
+
+It states that the states will eventually be consistent.
+
+---
+
+## 6. Strong vs Eventual Consistency  
+Strong consistency is when data updates are immediately reflected.  
+Eventual consistency is when data updates are delayed before being available across nodes.
+
+---
+
+* [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
+* [Consistency patterns](#consistency-patterns)
+* [Weak consistency](#weak-consistency)
+* [Eventual consistency](#eventual-consistency)
+
+---
+
+Consistency means that all clients see the same data at the same time, no matter which node they connect to. For this to happen, whenever data is written to one node, it must be instantly forwarded or replicated across all the nodes in the system before",[],citations,4.0,4.0,4.0,
+8,Explain message queues with examples,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# Message Queues  
+A message queue is a form of service-to-service communication that facilitates asynchronous communication. It asynchronously receives messages from producers and sends them to consumers.
+
+---
+
+### Message queues  
+Message queues receive, hold, and deliver messages.  If an operation is too slow to perform inline, you can use a message queue with the following workflow:
+
+---
+
+---
+title: ""Types of Message Queues""
+description: ""Explore different types of message queues and their key features.""
+image: ""https://assets.bytebytego.com/diagrams/0272-message-queues.png""
+createdAt: ""2024-01-31""
+draft: false
+categories:
+
+---
+
+* [Explaining the 4 Most Commonly Used Types of Queues](https://bytebytego.com/guides/explaining-the-4-most-commonly-used-types-of-queues-in-a-single-diagram)
+
+---
+
+Like a post office, a message queue helps computer programs communicate in an organized manner. Imagine little digital envelopes being passed around to keep everything on track. There are a few key features to consider when selecting message queues:",[],correctness,4.0,4.0,3.0,
+8,Explain message queues with examples,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# Message Queues  
+A message queue is a form of service-to-service communication that facilitates asynchronous communication. It asynchronously receives messages from producers and sends them to consumers.
+
+---
+
+### Message queues  
+Message queues receive, hold, and deliver messages.  If an operation is too slow to perform inline, you can use a message queue with the following workflow:
+
+---
+
+---
+title: ""Types of Message Queues""
+description: ""Explore different types of message queues and their key features.""
+image: ""https://assets.bytebytego.com/diagrams/0272-message-queues.png""
+createdAt: ""2024-01-31""
+draft: false
+categories:
+
+---
+
+* [Explaining the 4 Most Commonly Used Types of Queues](https://bytebytego.com/guides/explaining-the-4-most-commonly-used-types-of-queues-in-a-single-diagram)
+
+---
+
+Like a post office, a message queue helps computer programs communicate in an organized manner. Imagine little digital envelopes being passed around to keep everything on track. There are a few key features to consider when selecting message queues:",[],completeness,4.0,4.0,5.0,
+8,Explain message queues with examples,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# Message Queues  
+A message queue is a form of service-to-service communication that facilitates asynchronous communication. It asynchronously receives messages from producers and sends them to consumers.
+
+---
+
+### Message queues  
+Message queues receive, hold, and deliver messages.  If an operation is too slow to perform inline, you can use a message queue with the following workflow:
+
+---
+
+---
+title: ""Types of Message Queues""
+description: ""Explore different types of message queues and their key features.""
+image: ""https://assets.bytebytego.com/diagrams/0272-message-queues.png""
+createdAt: ""2024-01-31""
+draft: false
+categories:
+
+---
+
+* [Explaining the 4 Most Commonly Used Types of Queues](https://bytebytego.com/guides/explaining-the-4-most-commonly-used-types-of-queues-in-a-single-diagram)
+
+---
+
+Like a post office, a message queue helps computer programs communicate in an organized manner. Imagine little digital envelopes being passed around to keep everything on track. There are a few key features to consider when selecting message queues:",[],relevance,4.0,4.0,4.0,
+8,Explain message queues with examples,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# Message Queues  
+A message queue is a form of service-to-service communication that facilitates asynchronous communication. It asynchronously receives messages from producers and sends them to consumers.
+
+---
+
+### Message queues  
+Message queues receive, hold, and deliver messages.  If an operation is too slow to perform inline, you can use a message queue with the following workflow:
+
+---
+
+---
+title: ""Types of Message Queues""
+description: ""Explore different types of message queues and their key features.""
+image: ""https://assets.bytebytego.com/diagrams/0272-message-queues.png""
+createdAt: ""2024-01-31""
+draft: false
+categories:
+
+---
+
+* [Explaining the 4 Most Commonly Used Types of Queues](https://bytebytego.com/guides/explaining-the-4-most-commonly-used-types-of-queues-in-a-single-diagram)
+
+---
+
+Like a post office, a message queue helps computer programs communicate in an organized manner. Imagine little digital envelopes being passed around to keep everything on track. There are a few key features to consider when selecting message queues:",[],clarity,4.0,4.0,4.0,
+8,Explain message queues with examples,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"# Message Queues  
+A message queue is a form of service-to-service communication that facilitates asynchronous communication. It asynchronously receives messages from producers and sends them to consumers.
+
+---
+
+### Message queues  
+Message queues receive, hold, and deliver messages.  If an operation is too slow to perform inline, you can use a message queue with the following workflow:
+
+---
+
+---
+title: ""Types of Message Queues""
+description: ""Explore different types of message queues and their key features.""
+image: ""https://assets.bytebytego.com/diagrams/0272-message-queues.png""
+createdAt: ""2024-01-31""
+draft: false
+categories:
+
+---
+
+* [Explaining the 4 Most Commonly Used Types of Queues](https://bytebytego.com/guides/explaining-the-4-most-commonly-used-types-of-queues-in-a-single-diagram)
+
+---
+
+Like a post office, a message queue helps computer programs communicate in an organized manner. Imagine little digital envelopes being passed around to keep everything on track. There are a few key features to consider when selecting message queues:",[],citations,3.0,3.0,4.0,
+9,What is ACID in database transactions?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"_Usually, relational databases support ACID transactions, and non-relational databases don't (there are exceptions)._
+
+---
+
+**ACID** is a set of properties of relational database [transactions](https://en.wikipedia.org/wiki/Database_transaction).  
+* **Atomicity** - Each transaction is all or nothing
+
+---
+
+draft: false
+categories:
+- database-and-storage
+tags:
+- ""Databases""
+- ""ACID""
+---  
+The diagram above explains what ACID means in the context of a database transaction.  
+![](https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png)
+
+---
+
+---
+title: ""What does ACID mean?""
+description: ""Understand the ACID properties of database transactions.""
+image: ""https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png""
+createdAt: ""2024-03-12""
+draft: false
+categories:
+- database-and-storage
+
+---
+
+In order to maintain consistency before and after a transaction relational databases follow ACID properties. Let us understand these terms:",[],correctness,4.0,4.0,4.0,
+9,What is ACID in database transactions?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"_Usually, relational databases support ACID transactions, and non-relational databases don't (there are exceptions)._
+
+---
+
+**ACID** is a set of properties of relational database [transactions](https://en.wikipedia.org/wiki/Database_transaction).  
+* **Atomicity** - Each transaction is all or nothing
+
+---
+
+draft: false
+categories:
+- database-and-storage
+tags:
+- ""Databases""
+- ""ACID""
+---  
+The diagram above explains what ACID means in the context of a database transaction.  
+![](https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png)
+
+---
+
+---
+title: ""What does ACID mean?""
+description: ""Understand the ACID properties of database transactions.""
+image: ""https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png""
+createdAt: ""2024-03-12""
+draft: false
+categories:
+- database-and-storage
+
+---
+
+In order to maintain consistency before and after a transaction relational databases follow ACID properties. Let us understand these terms:",[],completeness,4.0,4.0,3.0,
+9,What is ACID in database transactions?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"_Usually, relational databases support ACID transactions, and non-relational databases don't (there are exceptions)._
+
+---
+
+**ACID** is a set of properties of relational database [transactions](https://en.wikipedia.org/wiki/Database_transaction).  
+* **Atomicity** - Each transaction is all or nothing
+
+---
+
+draft: false
+categories:
+- database-and-storage
+tags:
+- ""Databases""
+- ""ACID""
+---  
+The diagram above explains what ACID means in the context of a database transaction.  
+![](https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png)
+
+---
+
+---
+title: ""What does ACID mean?""
+description: ""Understand the ACID properties of database transactions.""
+image: ""https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png""
+createdAt: ""2024-03-12""
+draft: false
+categories:
+- database-and-storage
+
+---
+
+In order to maintain consistency before and after a transaction relational databases follow ACID properties. Let us understand these terms:",[],relevance,3.0,4.0,4.0,
+9,What is ACID in database transactions?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"_Usually, relational databases support ACID transactions, and non-relational databases don't (there are exceptions)._
+
+---
+
+**ACID** is a set of properties of relational database [transactions](https://en.wikipedia.org/wiki/Database_transaction).  
+* **Atomicity** - Each transaction is all or nothing
+
+---
+
+draft: false
+categories:
+- database-and-storage
+tags:
+- ""Databases""
+- ""ACID""
+---  
+The diagram above explains what ACID means in the context of a database transaction.  
+![](https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png)
+
+---
+
+---
+title: ""What does ACID mean?""
+description: ""Understand the ACID properties of database transactions.""
+image: ""https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png""
+createdAt: ""2024-03-12""
+draft: false
+categories:
+- database-and-storage
+
+---
+
+In order to maintain consistency before and after a transaction relational databases follow ACID properties. Let us understand these terms:",[],clarity,4.0,4.0,4.0,
+9,What is ACID in database transactions?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"_Usually, relational databases support ACID transactions, and non-relational databases don't (there are exceptions)._
+
+---
+
+**ACID** is a set of properties of relational database [transactions](https://en.wikipedia.org/wiki/Database_transaction).  
+* **Atomicity** - Each transaction is all or nothing
+
+---
+
+draft: false
+categories:
+- database-and-storage
+tags:
+- ""Databases""
+- ""ACID""
+---  
+The diagram above explains what ACID means in the context of a database transaction.  
+![](https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png)
+
+---
+
+---
+title: ""What does ACID mean?""
+description: ""Understand the ACID properties of database transactions.""
+image: ""https://assets.bytebytego.com/diagrams/0407-what-does-acid-mean.png""
+createdAt: ""2024-03-12""
+draft: false
+categories:
+- database-and-storage
+
+---
+
+In order to maintain consistency before and after a transaction relational databases follow ACID properties. Let us understand these terms:",[],citations,3.0,3.0,2.0,
+10,What is the difference between partitioning and replication?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Difference between HTTP and TCP](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+
+---
+
+* [Difference between PUT and PATCH](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)
+
+---
+
+The primary difference between synchronous and asynchronous replication is how the data is written to the replica. In synchronous replication, data is written to primary storage and the replica simultaneously. As such, the primary copy and the replica
+
+---
+
+**What is the difference between Netflix's Open Connect and a traditional Content Delivery Network (CDN)?**
+
+---
+
+* [HTTP 和 TCP 的区别](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+* [PUT 和 PATCH的区别](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)",[],correctness,4.0,5.0,4.0,
+10,What is the difference between partitioning and replication?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Difference between HTTP and TCP](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+
+---
+
+* [Difference between PUT and PATCH](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)
+
+---
+
+The primary difference between synchronous and asynchronous replication is how the data is written to the replica. In synchronous replication, data is written to primary storage and the replica simultaneously. As such, the primary copy and the replica
+
+---
+
+**What is the difference between Netflix's Open Connect and a traditional Content Delivery Network (CDN)?**
+
+---
+
+* [HTTP 和 TCP 的区别](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+* [PUT 和 PATCH的区别](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)",[],completeness,3.0,3.0,3.0,
+10,What is the difference between partitioning and replication?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Difference between HTTP and TCP](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+
+---
+
+* [Difference between PUT and PATCH](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)
+
+---
+
+The primary difference between synchronous and asynchronous replication is how the data is written to the replica. In synchronous replication, data is written to primary storage and the replica simultaneously. As such, the primary copy and the replica
+
+---
+
+**What is the difference between Netflix's Open Connect and a traditional Content Delivery Network (CDN)?**
+
+---
+
+* [HTTP 和 TCP 的区别](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+* [PUT 和 PATCH的区别](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)",[],relevance,5.0,5.0,5.0,
+10,What is the difference between partitioning and replication?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Difference between HTTP and TCP](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+
+---
+
+* [Difference between PUT and PATCH](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)
+
+---
+
+The primary difference between synchronous and asynchronous replication is how the data is written to the replica. In synchronous replication, data is written to primary storage and the replica simultaneously. As such, the primary copy and the replica
+
+---
+
+**What is the difference between Netflix's Open Connect and a traditional Content Delivery Network (CDN)?**
+
+---
+
+* [HTTP 和 TCP 的区别](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+* [PUT 和 PATCH的区别](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)",[],clarity,4.0,4.0,5.0,
+10,What is the difference between partitioning and replication?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Difference between HTTP and TCP](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+
+---
+
+* [Difference between PUT and PATCH](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)
+
+---
+
+The primary difference between synchronous and asynchronous replication is how the data is written to the replica. In synchronous replication, data is written to primary storage and the replica simultaneously. As such, the primary copy and the replica
+
+---
+
+**What is the difference between Netflix's Open Connect and a traditional Content Delivery Network (CDN)?**
+
+---
+
+* [HTTP 和 TCP 的区别](https://www.quora.com/What-is-the-difference-between-HTTP-protocol-and-TCP-protocol)
+* [PUT 和 PATCH的区别](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1)",[],citations,3.0,2.0,3.0,
+11,How does a CDN improve website performance?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## The benefits of CDN are:  
+*   Reducing latency  
+*   Reducing bandwidth  
+*   Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack  
+*   Increasing content availability
+
+---
+
+createdAt: ""2024-03-09""
+draft: false
+categories:
+- caching-performance
+tags:
+- ""CDN""
+- ""Content Delivery""
+---  
+How does CDN make content delivery faster? The diagram above shows why.  
+![](https://assets.bytebytego.com/diagrams/0132-cdn.png)
+
+---
+
+of the key approaches to improving a website’s performance.
+
+---
+
+Serving content from CDNs can significantly improve performance in two ways:  
+* Users receive content from data centers close to them
+* Your servers do not have to serve requests that the CDN fulfills
+
+---
+
+To minimize the distance between the visitors and the website's server, a CDN stores a cached version of its content in multiple geographical locations known as edge locations. Each edge location contains several caching servers responsible for content",[],correctness,5.0,5.0,5.0,
+11,How does a CDN improve website performance?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## The benefits of CDN are:  
+*   Reducing latency  
+*   Reducing bandwidth  
+*   Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack  
+*   Increasing content availability
+
+---
+
+createdAt: ""2024-03-09""
+draft: false
+categories:
+- caching-performance
+tags:
+- ""CDN""
+- ""Content Delivery""
+---  
+How does CDN make content delivery faster? The diagram above shows why.  
+![](https://assets.bytebytego.com/diagrams/0132-cdn.png)
+
+---
+
+of the key approaches to improving a website’s performance.
+
+---
+
+Serving content from CDNs can significantly improve performance in two ways:  
+* Users receive content from data centers close to them
+* Your servers do not have to serve requests that the CDN fulfills
+
+---
+
+To minimize the distance between the visitors and the website's server, a CDN stores a cached version of its content in multiple geographical locations known as edge locations. Each edge location contains several caching servers responsible for content",[],completeness,4.0,3.0,3.0,
+11,How does a CDN improve website performance?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## The benefits of CDN are:  
+*   Reducing latency  
+*   Reducing bandwidth  
+*   Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack  
+*   Increasing content availability
+
+---
+
+createdAt: ""2024-03-09""
+draft: false
+categories:
+- caching-performance
+tags:
+- ""CDN""
+- ""Content Delivery""
+---  
+How does CDN make content delivery faster? The diagram above shows why.  
+![](https://assets.bytebytego.com/diagrams/0132-cdn.png)
+
+---
+
+of the key approaches to improving a website’s performance.
+
+---
+
+Serving content from CDNs can significantly improve performance in two ways:  
+* Users receive content from data centers close to them
+* Your servers do not have to serve requests that the CDN fulfills
+
+---
+
+To minimize the distance between the visitors and the website's server, a CDN stores a cached version of its content in multiple geographical locations known as edge locations. Each edge location contains several caching servers responsible for content",[],relevance,4.0,4.0,4.0,
+11,How does a CDN improve website performance?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## The benefits of CDN are:  
+*   Reducing latency  
+*   Reducing bandwidth  
+*   Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack  
+*   Increasing content availability
+
+---
+
+createdAt: ""2024-03-09""
+draft: false
+categories:
+- caching-performance
+tags:
+- ""CDN""
+- ""Content Delivery""
+---  
+How does CDN make content delivery faster? The diagram above shows why.  
+![](https://assets.bytebytego.com/diagrams/0132-cdn.png)
+
+---
+
+of the key approaches to improving a website’s performance.
+
+---
+
+Serving content from CDNs can significantly improve performance in two ways:  
+* Users receive content from data centers close to them
+* Your servers do not have to serve requests that the CDN fulfills
+
+---
+
+To minimize the distance between the visitors and the website's server, a CDN stores a cached version of its content in multiple geographical locations known as edge locations. Each edge location contains several caching servers responsible for content",[],clarity,4.0,4.0,4.0,
+11,How does a CDN improve website performance?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"## The benefits of CDN are:  
+*   Reducing latency  
+*   Reducing bandwidth  
+*   Improving website security, especially protecting against DDoS (Distributed Denial-of-Service) attack  
+*   Increasing content availability
+
+---
+
+createdAt: ""2024-03-09""
+draft: false
+categories:
+- caching-performance
+tags:
+- ""CDN""
+- ""Content Delivery""
+---  
+How does CDN make content delivery faster? The diagram above shows why.  
+![](https://assets.bytebytego.com/diagrams/0132-cdn.png)
+
+---
+
+of the key approaches to improving a website’s performance.
+
+---
+
+Serving content from CDNs can significantly improve performance in two ways:  
+* Users receive content from data centers close to them
+* Your servers do not have to serve requests that the CDN fulfills
+
+---
+
+To minimize the distance between the visitors and the website's server, a CDN stores a cached version of its content in multiple geographical locations known as edge locations. Each edge location contains several caching servers responsible for content",[],citations,2.0,2.0,2.0,Missing or inaccurate citations
+12,Design a file sharing service like Dropbox,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- [Design Distributed Counter](https://systemdesign.one/distributed-counter-system-design/)
+- [Design File Sharing System like Dropbox](https://www.youtube.com/watch?v=U0xTu6E2CT8)
+
+---
+
+| Question | Reference(s) |
+|---|---|
+| Design a file sync service like Dropbox | [youtube.com](https://www.youtube.com/watch?v=PE4gwstWhmc) |
+
+---
+
+##  
+### File Sharing  
+15. Design a documentation system like Google Docs  
+16. Design a file management system like Amazon S3
+
+---
+
+* [Bandaid: Service Proxy at Dropbox](https://dropbox.tech/infrastructure/meet-bandaid-the-dropbox-service-proxy)
+
+---
+
+##  
+### Location Based Services  
+11. Design a cab-aggregation service like Uber  
+12. [Design a food-aggregation service like Doordash](https://interviewready.io/learn/system-design-course/location_based_databases/location_representation)",[],correctness,4.0,4.0,4.0,
+12,Design a file sharing service like Dropbox,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- [Design Distributed Counter](https://systemdesign.one/distributed-counter-system-design/)
+- [Design File Sharing System like Dropbox](https://www.youtube.com/watch?v=U0xTu6E2CT8)
+
+---
+
+| Question | Reference(s) |
+|---|---|
+| Design a file sync service like Dropbox | [youtube.com](https://www.youtube.com/watch?v=PE4gwstWhmc) |
+
+---
+
+##  
+### File Sharing  
+15. Design a documentation system like Google Docs  
+16. Design a file management system like Amazon S3
+
+---
+
+* [Bandaid: Service Proxy at Dropbox](https://dropbox.tech/infrastructure/meet-bandaid-the-dropbox-service-proxy)
+
+---
+
+##  
+### Location Based Services  
+11. Design a cab-aggregation service like Uber  
+12. [Design a food-aggregation service like Doordash](https://interviewready.io/learn/system-design-course/location_based_databases/location_representation)",[],completeness,3.0,3.0,3.0,
+12,Design a file sharing service like Dropbox,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- [Design Distributed Counter](https://systemdesign.one/distributed-counter-system-design/)
+- [Design File Sharing System like Dropbox](https://www.youtube.com/watch?v=U0xTu6E2CT8)
+
+---
+
+| Question | Reference(s) |
+|---|---|
+| Design a file sync service like Dropbox | [youtube.com](https://www.youtube.com/watch?v=PE4gwstWhmc) |
+
+---
+
+##  
+### File Sharing  
+15. Design a documentation system like Google Docs  
+16. Design a file management system like Amazon S3
+
+---
+
+* [Bandaid: Service Proxy at Dropbox](https://dropbox.tech/infrastructure/meet-bandaid-the-dropbox-service-proxy)
+
+---
+
+##  
+### Location Based Services  
+11. Design a cab-aggregation service like Uber  
+12. [Design a food-aggregation service like Doordash](https://interviewready.io/learn/system-design-course/location_based_databases/location_representation)",[],relevance,5.0,5.0,5.0,
+12,Design a file sharing service like Dropbox,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- [Design Distributed Counter](https://systemdesign.one/distributed-counter-system-design/)
+- [Design File Sharing System like Dropbox](https://www.youtube.com/watch?v=U0xTu6E2CT8)
+
+---
+
+| Question | Reference(s) |
+|---|---|
+| Design a file sync service like Dropbox | [youtube.com](https://www.youtube.com/watch?v=PE4gwstWhmc) |
+
+---
+
+##  
+### File Sharing  
+15. Design a documentation system like Google Docs  
+16. Design a file management system like Amazon S3
+
+---
+
+* [Bandaid: Service Proxy at Dropbox](https://dropbox.tech/infrastructure/meet-bandaid-the-dropbox-service-proxy)
+
+---
+
+##  
+### Location Based Services  
+11. Design a cab-aggregation service like Uber  
+12. [Design a food-aggregation service like Doordash](https://interviewready.io/learn/system-design-course/location_based_databases/location_representation)",[],clarity,5.0,4.0,5.0,
+12,Design a file sharing service like Dropbox,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- [Design Distributed Counter](https://systemdesign.one/distributed-counter-system-design/)
+- [Design File Sharing System like Dropbox](https://www.youtube.com/watch?v=U0xTu6E2CT8)
+
+---
+
+| Question | Reference(s) |
+|---|---|
+| Design a file sync service like Dropbox | [youtube.com](https://www.youtube.com/watch?v=PE4gwstWhmc) |
+
+---
+
+##  
+### File Sharing  
+15. Design a documentation system like Google Docs  
+16. Design a file management system like Amazon S3
+
+---
+
+* [Bandaid: Service Proxy at Dropbox](https://dropbox.tech/infrastructure/meet-bandaid-the-dropbox-service-proxy)
+
+---
+
+##  
+### Location Based Services  
+11. Design a cab-aggregation service like Uber  
+12. [Design a food-aggregation service like Doordash](https://interviewready.io/learn/system-design-course/location_based_databases/location_representation)",[],citations,3.0,4.0,4.0,
+13,Design a global load balancer for multi-region deployment,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"appropriate client.  Load balancers are effective at:
+
+---
+
+- [DigitalOcean Load Balancing](https://www.digitalocean.com/docs/networking/load-balancers/) - If you're a digitalocean customer, this is a good option, very cheap, regional availability, scalable, easy to deploy among your other droplets.
+
+---
+
+*   Global Server Load Balancing (GSLB): Distributes traffic across multiple geographical locations to improve redundancy and performance on a global scale.
+
+---
+
+## Multi-Service Deployment
+
+---
+
+### Load balancer vs reverse proxy  
+* Deploying a load balancer is useful when you have multiple servers.  Often, load balancers  route traffic to a set of servers serving the same function.",[],correctness,4.0,3.0,3.0,
+13,Design a global load balancer for multi-region deployment,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"appropriate client.  Load balancers are effective at:
+
+---
+
+- [DigitalOcean Load Balancing](https://www.digitalocean.com/docs/networking/load-balancers/) - If you're a digitalocean customer, this is a good option, very cheap, regional availability, scalable, easy to deploy among your other droplets.
+
+---
+
+*   Global Server Load Balancing (GSLB): Distributes traffic across multiple geographical locations to improve redundancy and performance on a global scale.
+
+---
+
+## Multi-Service Deployment
+
+---
+
+### Load balancer vs reverse proxy  
+* Deploying a load balancer is useful when you have multiple servers.  Often, load balancers  route traffic to a set of servers serving the same function.",[],completeness,3.0,4.0,3.0,
+13,Design a global load balancer for multi-region deployment,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"appropriate client.  Load balancers are effective at:
+
+---
+
+- [DigitalOcean Load Balancing](https://www.digitalocean.com/docs/networking/load-balancers/) - If you're a digitalocean customer, this is a good option, very cheap, regional availability, scalable, easy to deploy among your other droplets.
+
+---
+
+*   Global Server Load Balancing (GSLB): Distributes traffic across multiple geographical locations to improve redundancy and performance on a global scale.
+
+---
+
+## Multi-Service Deployment
+
+---
+
+### Load balancer vs reverse proxy  
+* Deploying a load balancer is useful when you have multiple servers.  Often, load balancers  route traffic to a set of servers serving the same function.",[],relevance,4.0,4.0,4.0,
+13,Design a global load balancer for multi-region deployment,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"appropriate client.  Load balancers are effective at:
+
+---
+
+- [DigitalOcean Load Balancing](https://www.digitalocean.com/docs/networking/load-balancers/) - If you're a digitalocean customer, this is a good option, very cheap, regional availability, scalable, easy to deploy among your other droplets.
+
+---
+
+*   Global Server Load Balancing (GSLB): Distributes traffic across multiple geographical locations to improve redundancy and performance on a global scale.
+
+---
+
+## Multi-Service Deployment
+
+---
+
+### Load balancer vs reverse proxy  
+* Deploying a load balancer is useful when you have multiple servers.  Often, load balancers  route traffic to a set of servers serving the same function.",[],clarity,4.0,4.0,5.0,
+13,Design a global load balancer for multi-region deployment,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"appropriate client.  Load balancers are effective at:
+
+---
+
+- [DigitalOcean Load Balancing](https://www.digitalocean.com/docs/networking/load-balancers/) - If you're a digitalocean customer, this is a good option, very cheap, regional availability, scalable, easy to deploy among your other droplets.
+
+---
+
+*   Global Server Load Balancing (GSLB): Distributes traffic across multiple geographical locations to improve redundancy and performance on a global scale.
+
+---
+
+## Multi-Service Deployment
+
+---
+
+### Load balancer vs reverse proxy  
+* Deploying a load balancer is useful when you have multiple servers.  Often, load balancers  route traffic to a set of servers serving the same function.",[],citations,3.0,3.0,3.0,
+14,How do you design Twitter's newsfeed?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- Push Model (or Fan-out on write)  
+![newsfeed-push-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-push-model.png)
+
+---
+
+- Pull Model (or Fan-out on load)  
+![newsfeed-pull-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-pull-model.png)
+
+---
+
+| Design the Facebook news feed function |
+
+---
+
+* [How to Design Stack Overflow](https://bytebytego.com/guides/how-will-you-design-the-stack-overflow-website)
+* [Twitter 1.0 Tech Stack](https://bytebytego.com/guides/twitter-10-tech-stack)
+
+---
+
+* [How does Twitter recommend “For You” Timeline in 1.5 seconds?](https://bytebytego.com/guides/how-does-twitter-recommend-tweets)",[],correctness,4.0,5.0,4.0,
+14,How do you design Twitter's newsfeed?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- Push Model (or Fan-out on write)  
+![newsfeed-push-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-push-model.png)
+
+---
+
+- Pull Model (or Fan-out on load)  
+![newsfeed-pull-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-pull-model.png)
+
+---
+
+| Design the Facebook news feed function |
+
+---
+
+* [How to Design Stack Overflow](https://bytebytego.com/guides/how-will-you-design-the-stack-overflow-website)
+* [Twitter 1.0 Tech Stack](https://bytebytego.com/guides/twitter-10-tech-stack)
+
+---
+
+* [How does Twitter recommend “For You” Timeline in 1.5 seconds?](https://bytebytego.com/guides/how-does-twitter-recommend-tweets)",[],completeness,4.0,5.0,5.0,
+14,How do you design Twitter's newsfeed?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- Push Model (or Fan-out on write)  
+![newsfeed-push-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-push-model.png)
+
+---
+
+- Pull Model (or Fan-out on load)  
+![newsfeed-pull-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-pull-model.png)
+
+---
+
+| Design the Facebook news feed function |
+
+---
+
+* [How to Design Stack Overflow](https://bytebytego.com/guides/how-will-you-design-the-stack-overflow-website)
+* [Twitter 1.0 Tech Stack](https://bytebytego.com/guides/twitter-10-tech-stack)
+
+---
+
+* [How does Twitter recommend “For You” Timeline in 1.5 seconds?](https://bytebytego.com/guides/how-does-twitter-recommend-tweets)",[],relevance,4.0,4.0,4.0,
+14,How do you design Twitter's newsfeed?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- Push Model (or Fan-out on write)  
+![newsfeed-push-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-push-model.png)
+
+---
+
+- Pull Model (or Fan-out on load)  
+![newsfeed-pull-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-pull-model.png)
+
+---
+
+| Design the Facebook news feed function |
+
+---
+
+* [How to Design Stack Overflow](https://bytebytego.com/guides/how-will-you-design-the-stack-overflow-website)
+* [Twitter 1.0 Tech Stack](https://bytebytego.com/guides/twitter-10-tech-stack)
+
+---
+
+* [How does Twitter recommend “For You” Timeline in 1.5 seconds?](https://bytebytego.com/guides/how-does-twitter-recommend-tweets)",[],clarity,4.0,4.0,3.0,
+14,How do you design Twitter's newsfeed?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"- Push Model (or Fan-out on write)  
+![newsfeed-push-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-push-model.png)
+
+---
+
+- Pull Model (or Fan-out on load)  
+![newsfeed-pull-model](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-V/twitter/newsfeed-pull-model.png)
+
+---
+
+| Design the Facebook news feed function |
+
+---
+
+* [How to Design Stack Overflow](https://bytebytego.com/guides/how-will-you-design-the-stack-overflow-website)
+* [Twitter 1.0 Tech Stack](https://bytebytego.com/guides/twitter-10-tech-stack)
+
+---
+
+* [How does Twitter recommend “For You” Timeline in 1.5 seconds?](https://bytebytego.com/guides/how-does-twitter-recommend-tweets)",[],citations,4.0,4.0,4.0,
+15,How does Netflix handle video streaming at scale?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"The Netflix Engineering team selects a variety of databases to empower streaming at scale.
+
+---
+
+* [How YouTube Handles Massive Video Uploads](https://bytebytego.com/guides/how-does-youtube-handle-massive-video-content-upload)
+
+---
+
+Netflix takes this a step further with its [Open Connect](https://openconnect.netflix.com) program. In this approach, they partner with thousands of Internet Service Providers (ISPs) to localize their traffic and deliver their content more efficiently.
+
+---
+
+- [Netflix Video Encoding at Scale](https://netflixtechblog.com/high-quality-video-encoding-at-scale-d159db052746)
+- [Netflix Shot based encoding](https://netflixtechblog.com/optimized-shot-based-encodes-now-streaming-4b9464204830)
+
+---
+
+Usually, a video file can be split into equal size chunks based on timestamps but Netflix instead splits chunks based on scenes. This slight variation becomes a huge factor for a better user experience since whenever the client requests a chunk from the",[],correctness,3.0,4.0,4.0,
+15,How does Netflix handle video streaming at scale?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"The Netflix Engineering team selects a variety of databases to empower streaming at scale.
+
+---
+
+* [How YouTube Handles Massive Video Uploads](https://bytebytego.com/guides/how-does-youtube-handle-massive-video-content-upload)
+
+---
+
+Netflix takes this a step further with its [Open Connect](https://openconnect.netflix.com) program. In this approach, they partner with thousands of Internet Service Providers (ISPs) to localize their traffic and deliver their content more efficiently.
+
+---
+
+- [Netflix Video Encoding at Scale](https://netflixtechblog.com/high-quality-video-encoding-at-scale-d159db052746)
+- [Netflix Shot based encoding](https://netflixtechblog.com/optimized-shot-based-encodes-now-streaming-4b9464204830)
+
+---
+
+Usually, a video file can be split into equal size chunks based on timestamps but Netflix instead splits chunks based on scenes. This slight variation becomes a huge factor for a better user experience since whenever the client requests a chunk from the",[],completeness,4.0,4.0,3.0,
+15,How does Netflix handle video streaming at scale?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"The Netflix Engineering team selects a variety of databases to empower streaming at scale.
+
+---
+
+* [How YouTube Handles Massive Video Uploads](https://bytebytego.com/guides/how-does-youtube-handle-massive-video-content-upload)
+
+---
+
+Netflix takes this a step further with its [Open Connect](https://openconnect.netflix.com) program. In this approach, they partner with thousands of Internet Service Providers (ISPs) to localize their traffic and deliver their content more efficiently.
+
+---
+
+- [Netflix Video Encoding at Scale](https://netflixtechblog.com/high-quality-video-encoding-at-scale-d159db052746)
+- [Netflix Shot based encoding](https://netflixtechblog.com/optimized-shot-based-encodes-now-streaming-4b9464204830)
+
+---
+
+Usually, a video file can be split into equal size chunks based on timestamps but Netflix instead splits chunks based on scenes. This slight variation becomes a huge factor for a better user experience since whenever the client requests a chunk from the",[],relevance,4.0,4.0,5.0,
+15,How does Netflix handle video streaming at scale?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"The Netflix Engineering team selects a variety of databases to empower streaming at scale.
+
+---
+
+* [How YouTube Handles Massive Video Uploads](https://bytebytego.com/guides/how-does-youtube-handle-massive-video-content-upload)
+
+---
+
+Netflix takes this a step further with its [Open Connect](https://openconnect.netflix.com) program. In this approach, they partner with thousands of Internet Service Providers (ISPs) to localize their traffic and deliver their content more efficiently.
+
+---
+
+- [Netflix Video Encoding at Scale](https://netflixtechblog.com/high-quality-video-encoding-at-scale-d159db052746)
+- [Netflix Shot based encoding](https://netflixtechblog.com/optimized-shot-based-encodes-now-streaming-4b9464204830)
+
+---
+
+Usually, a video file can be split into equal size chunks based on timestamps but Netflix instead splits chunks based on scenes. This slight variation becomes a huge factor for a better user experience since whenever the client requests a chunk from the",[],clarity,4.0,5.0,4.0,
+15,How does Netflix handle video streaming at scale?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"The Netflix Engineering team selects a variety of databases to empower streaming at scale.
+
+---
+
+* [How YouTube Handles Massive Video Uploads](https://bytebytego.com/guides/how-does-youtube-handle-massive-video-content-upload)
+
+---
+
+Netflix takes this a step further with its [Open Connect](https://openconnect.netflix.com) program. In this approach, they partner with thousands of Internet Service Providers (ISPs) to localize their traffic and deliver their content more efficiently.
+
+---
+
+- [Netflix Video Encoding at Scale](https://netflixtechblog.com/high-quality-video-encoding-at-scale-d159db052746)
+- [Netflix Shot based encoding](https://netflixtechblog.com/optimized-shot-based-encodes-now-streaming-4b9464204830)
+
+---
+
+Usually, a video file can be split into equal size chunks based on timestamps but Netflix instead splits chunks based on scenes. This slight variation becomes a huge factor for a better user experience since whenever the client requests a chunk from the",[],citations,3.0,3.0,3.0,
+16,How does Google handle billions of searches per day?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+* 150 billion tweets delivered on fanout per month * (400 requests per second / 1 billion requests per month)
+* 4,000 search requests per second
+* 10 billion searches per month * (400 requests per second / 1 billion requests per month)
+
+---
+
+* 100 million active users
+* 500 million tweets per day or 15 billion tweets per month
+* Each tweet averages a fanout of 10 deliveries
+* 5 billion total tweets delivered on fanout per day
+* 150 billion tweets delivered on fanout per month
+
+---
+
+$$
+5 \space percent \times 2 \space billion = 100 \space million/day
+$$  
+**What would be Requests Per Second (RPS) for our system?**  
+2 billion requests per day translate into 24K requests per second.  
+$$",[],correctness,4.0,4.0,5.0,
+16,How does Google handle billions of searches per day?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+* 150 billion tweets delivered on fanout per month * (400 requests per second / 1 billion requests per month)
+* 4,000 search requests per second
+* 10 billion searches per month * (400 requests per second / 1 billion requests per month)
+
+---
+
+* 100 million active users
+* 500 million tweets per day or 15 billion tweets per month
+* Each tweet averages a fanout of 10 deliveries
+* 5 billion total tweets delivered on fanout per day
+* 150 billion tweets delivered on fanout per month
+
+---
+
+$$
+5 \space percent \times 2 \space billion = 100 \space million/day
+$$  
+**What would be Requests Per Second (RPS) for our system?**  
+2 billion requests per day translate into 24K requests per second.  
+$$",[],completeness,3.0,3.0,3.0,
+16,How does Google handle billions of searches per day?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+* 150 billion tweets delivered on fanout per month * (400 requests per second / 1 billion requests per month)
+* 4,000 search requests per second
+* 10 billion searches per month * (400 requests per second / 1 billion requests per month)
+
+---
+
+* 100 million active users
+* 500 million tweets per day or 15 billion tweets per month
+* Each tweet averages a fanout of 10 deliveries
+* 5 billion total tweets delivered on fanout per day
+* 150 billion tweets delivered on fanout per month
+
+---
+
+$$
+5 \space percent \times 2 \space billion = 100 \space million/day
+$$  
+**What would be Requests Per Second (RPS) for our system?**  
+2 billion requests per day translate into 24K requests per second.  
+$$",[],relevance,5.0,5.0,4.0,
+16,How does Google handle billions of searches per day?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+* 150 billion tweets delivered on fanout per month * (400 requests per second / 1 billion requests per month)
+* 4,000 search requests per second
+* 10 billion searches per month * (400 requests per second / 1 billion requests per month)
+
+---
+
+* 100 million active users
+* 500 million tweets per day or 15 billion tweets per month
+* Each tweet averages a fanout of 10 deliveries
+* 5 billion total tweets delivered on fanout per day
+* 150 billion tweets delivered on fanout per month
+
+---
+
+$$
+5 \space percent \times 2 \space billion = 100 \space million/day
+$$  
+**What would be Requests Per Second (RPS) for our system?**  
+2 billion requests per day translate into 24K requests per second.  
+$$",[],clarity,4.0,4.0,4.0,
+16,How does Google handle billions of searches per day?,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+| Salesforce | [How they handle 1.3 billion transactions a day](http://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html) |
+
+---
+
+* 150 billion tweets delivered on fanout per month * (400 requests per second / 1 billion requests per month)
+* 4,000 search requests per second
+* 10 billion searches per month * (400 requests per second / 1 billion requests per month)
+
+---
+
+* 100 million active users
+* 500 million tweets per day or 15 billion tweets per month
+* Each tweet averages a fanout of 10 deliveries
+* 5 billion total tweets delivered on fanout per day
+* 150 billion tweets delivered on fanout per month
+
+---
+
+$$
+5 \space percent \times 2 \space billion = 100 \space million/day
+$$  
+**What would be Requests Per Second (RPS) for our system?**  
+2 billion requests per day translate into 24K requests per second.  
+$$",[],citations,2.0,3.0,2.0,
+17,Design a web crawler like Google's,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Design a scalable web crawler like Google | [quora.com](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch) |
+
+---
+
+# Design a web crawler
+
+---
+
+| Design a search engine like Google |
+
+---
+
+##  
+### Cloud Management and Analytics  
+4. Design a cloud solution provider like Amazon Web Services  
+5. Design an analytics system like Google Analytics
+
+---
+
+We might also choose to support a `Robots.txt` file that gives webmasters control of crawl frequency.",[],correctness,4.0,4.0,3.0,
+17,Design a web crawler like Google's,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Design a scalable web crawler like Google | [quora.com](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch) |
+
+---
+
+# Design a web crawler
+
+---
+
+| Design a search engine like Google |
+
+---
+
+##  
+### Cloud Management and Analytics  
+4. Design a cloud solution provider like Amazon Web Services  
+5. Design an analytics system like Google Analytics
+
+---
+
+We might also choose to support a `Robots.txt` file that gives webmasters control of crawl frequency.",[],completeness,3.0,3.0,3.0,
+17,Design a web crawler like Google's,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Design a scalable web crawler like Google | [quora.com](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch) |
+
+---
+
+# Design a web crawler
+
+---
+
+| Design a search engine like Google |
+
+---
+
+##  
+### Cloud Management and Analytics  
+4. Design a cloud solution provider like Amazon Web Services  
+5. Design an analytics system like Google Analytics
+
+---
+
+We might also choose to support a `Robots.txt` file that gives webmasters control of crawl frequency.",[],relevance,4.0,4.0,4.0,
+17,Design a web crawler like Google's,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Design a scalable web crawler like Google | [quora.com](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch) |
+
+---
+
+# Design a web crawler
+
+---
+
+| Design a search engine like Google |
+
+---
+
+##  
+### Cloud Management and Analytics  
+4. Design a cloud solution provider like Amazon Web Services  
+5. Design an analytics system like Google Analytics
+
+---
+
+We might also choose to support a `Robots.txt` file that gives webmasters control of crawl frequency.",[],clarity,4.0,4.0,4.0,
+17,Design a web crawler like Google's,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"| Design a scalable web crawler like Google | [quora.com](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch) |
+
+---
+
+# Design a web crawler
+
+---
+
+| Design a search engine like Google |
+
+---
+
+##  
+### Cloud Management and Analytics  
+4. Design a cloud solution provider like Amazon Web Services  
+5. Design an analytics system like Google Analytics
+
+---
+
+We might also choose to support a `Robots.txt` file that gives webmasters control of crawl frequency.",[],citations,3.0,3.0,3.0,
+18,Design a search autocomplete system,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Autocomplete Search (2 parts) at Traveloka](https://medium.com/traveloka-engineering/high-quality-autocomplete-search-part-2-d5b15bb0dadf)
+
+---
+
+- [Design Autocomplete for Search Engines](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Load Balancer](https://algomaster.io/learn/system-design-interviews/design-load-balancer)
+
+---
+
+# Design the Twitter timeline and search
+
+---
+
+* [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)  
+**Design a recommendation system**
+Reference:
+* [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)
+
+---
+
+| Design a search engine like Google |",[],correctness,5.0,4.0,4.0,
+18,Design a search autocomplete system,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Autocomplete Search (2 parts) at Traveloka](https://medium.com/traveloka-engineering/high-quality-autocomplete-search-part-2-d5b15bb0dadf)
+
+---
+
+- [Design Autocomplete for Search Engines](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Load Balancer](https://algomaster.io/learn/system-design-interviews/design-load-balancer)
+
+---
+
+# Design the Twitter timeline and search
+
+---
+
+* [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)  
+**Design a recommendation system**
+Reference:
+* [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)
+
+---
+
+| Design a search engine like Google |",[],completeness,4.0,4.0,4.0,
+18,Design a search autocomplete system,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Autocomplete Search (2 parts) at Traveloka](https://medium.com/traveloka-engineering/high-quality-autocomplete-search-part-2-d5b15bb0dadf)
+
+---
+
+- [Design Autocomplete for Search Engines](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Load Balancer](https://algomaster.io/learn/system-design-interviews/design-load-balancer)
+
+---
+
+# Design the Twitter timeline and search
+
+---
+
+* [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)  
+**Design a recommendation system**
+Reference:
+* [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)
+
+---
+
+| Design a search engine like Google |",[],relevance,4.0,4.0,4.0,
+18,Design a search autocomplete system,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Autocomplete Search (2 parts) at Traveloka](https://medium.com/traveloka-engineering/high-quality-autocomplete-search-part-2-d5b15bb0dadf)
+
+---
+
+- [Design Autocomplete for Search Engines](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Load Balancer](https://algomaster.io/learn/system-design-interviews/design-load-balancer)
+
+---
+
+# Design the Twitter timeline and search
+
+---
+
+* [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)  
+**Design a recommendation system**
+Reference:
+* [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)
+
+---
+
+| Design a search engine like Google |",[],clarity,5.0,5.0,4.0,
+18,Design a search autocomplete system,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"* [Autocomplete Search (2 parts) at Traveloka](https://medium.com/traveloka-engineering/high-quality-autocomplete-search-part-2-d5b15bb0dadf)
+
+---
+
+- [Design Autocomplete for Search Engines](https://algomaster.io/learn/system-design-interviews/design-instagram)
+- [Design Load Balancer](https://algomaster.io/learn/system-design-interviews/design-load-balancer)
+
+---
+
+# Design the Twitter timeline and search
+
+---
+
+* [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)  
+**Design a recommendation system**
+Reference:
+* [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)
+
+---
+
+| Design a search engine like Google |",[],citations,3.0,4.0,3.0,
+19,Explain consistent hashing and when to use it,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"---
+title: ""Consistent Hashing Explained""
+description: ""Explore consistent hashing: its benefits, and real-world applications.""
+image: ""https://assets.bytebytego.com/diagrams/0151-consistent-hashing.png""
+createdAt: ""2024-03-07""
+draft: false
+categories:
+
+---
+
+* [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+* [Consistent Hashing: Algorithmic Tradeoffs](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+
+---
+
+![consistent-hashing](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-II/consistent-hashing/consistent-hashing.png)
+
+---
+
+* [Consistent hashing](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)  
+#### 非正規化
+
+---
+
+Consistent Hashing is a distributed hashing scheme that operates independently of the number of nodes in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting",[],correctness,3.0,3.0,3.0,
+19,Explain consistent hashing and when to use it,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"---
+title: ""Consistent Hashing Explained""
+description: ""Explore consistent hashing: its benefits, and real-world applications.""
+image: ""https://assets.bytebytego.com/diagrams/0151-consistent-hashing.png""
+createdAt: ""2024-03-07""
+draft: false
+categories:
+
+---
+
+* [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+* [Consistent Hashing: Algorithmic Tradeoffs](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+
+---
+
+![consistent-hashing](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-II/consistent-hashing/consistent-hashing.png)
+
+---
+
+* [Consistent hashing](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)  
+#### 非正規化
+
+---
+
+Consistent Hashing is a distributed hashing scheme that operates independently of the number of nodes in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting",[],completeness,3.0,3.0,4.0,
+19,Explain consistent hashing and when to use it,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"---
+title: ""Consistent Hashing Explained""
+description: ""Explore consistent hashing: its benefits, and real-world applications.""
+image: ""https://assets.bytebytego.com/diagrams/0151-consistent-hashing.png""
+createdAt: ""2024-03-07""
+draft: false
+categories:
+
+---
+
+* [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+* [Consistent Hashing: Algorithmic Tradeoffs](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+
+---
+
+![consistent-hashing](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-II/consistent-hashing/consistent-hashing.png)
+
+---
+
+* [Consistent hashing](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)  
+#### 非正規化
+
+---
+
+Consistent Hashing is a distributed hashing scheme that operates independently of the number of nodes in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting",[],relevance,5.0,4.0,5.0,
+19,Explain consistent hashing and when to use it,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"---
+title: ""Consistent Hashing Explained""
+description: ""Explore consistent hashing: its benefits, and real-world applications.""
+image: ""https://assets.bytebytego.com/diagrams/0151-consistent-hashing.png""
+createdAt: ""2024-03-07""
+draft: false
+categories:
+
+---
+
+* [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+* [Consistent Hashing: Algorithmic Tradeoffs](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+
+---
+
+![consistent-hashing](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-II/consistent-hashing/consistent-hashing.png)
+
+---
+
+* [Consistent hashing](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)  
+#### 非正規化
+
+---
+
+Consistent Hashing is a distributed hashing scheme that operates independently of the number of nodes in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting",[],clarity,4.0,3.0,3.0,
+19,Explain consistent hashing and when to use it,Error generating answer: Both Groq and Ollama providers failed. Ensure Ollama is running (ollama serve) and llama3.2 model is pulled (ollama pull llama3.2),"---
+title: ""Consistent Hashing Explained""
+description: ""Explore consistent hashing: its benefits, and real-world applications.""
+image: ""https://assets.bytebytego.com/diagrams/0151-consistent-hashing.png""
+createdAt: ""2024-03-07""
+draft: false
+categories:
+
+---
+
+* [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
+* [Consistent Hashing: Algorithmic Tradeoffs](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8)
+
+---
+
+![consistent-hashing](https://raw.githubusercontent.com/karanpratapsingh/portfolio/master/public/static/courses/system-design/chapter-II/consistent-hashing/consistent-hashing.png)
+
+---
+
+* [Consistent hashing](http://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)  
+#### 非正規化
+
+---
+
+Consistent Hashing is a distributed hashing scheme that operates independently of the number of nodes in a distributed hash table by assigning them a position on an abstract circle, or hash ring. This allows servers and objects to scale without affecting",[],citations,3.0,2.0,3.0,

@@ -1,0 +1,267 @@
+{
+  "version": "1.0",
+  "description": "Hierarchical topic taxonomy for system design content classification and filtering. Maps TopicCategory enum values to keywords, example questions, and related categories.",
+  "categories": [
+    {
+      "category": "DATABASES",
+      "description": "Database selection, scaling strategies, consistency models, replication, sharding, and SQL vs NoSQL trade-offs",
+      "keywords": [
+        "SQL",
+        "NoSQL",
+        "sharding",
+        "replication",
+        "ACID",
+        "CAP theorem",
+        "consistency",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Cassandra",
+        "DynamoDB",
+        "partitioning",
+        "indexing",
+        "transactions"
+      ],
+      "example_questions": [
+        "Design Instagram's photo storage system",
+        "How would you design a database for Twitter's timeline?",
+        "Design a multi-region database with strong consistency",
+        "Design a key-value store supporting billions of records",
+        "How do you handle database sharding for a social network?"
+      ],
+      "related_categories": [
+        "CACHING",
+        "SCALABILITY",
+        "DISTRIBUTED_SYSTEMS",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "category": "CACHING",
+      "description": "Cache strategies, CDN usage, Redis/Memcached, cache invalidation patterns, and cache-aside vs write-through trade-offs",
+      "keywords": [
+        "Redis",
+        "Memcached",
+        "CDN",
+        "cache invalidation",
+        "cache-aside",
+        "write-through",
+        "write-back",
+        "TTL",
+        "LRU",
+        "cache coherence",
+        "CloudFront",
+        "Varnish",
+        "edge caching"
+      ],
+      "example_questions": [
+        "Design a caching layer for a news feed application",
+        "How would you implement cache invalidation for user profiles?",
+        "Design a CDN system for video streaming",
+        "What caching strategy would you use for e-commerce product catalogs?",
+        "Design a distributed cache with consistency guarantees"
+      ],
+      "related_categories": [
+        "DATABASES",
+        "SCALABILITY",
+        "LOAD_BALANCING"
+      ]
+    },
+    {
+      "category": "LOAD_BALANCING",
+      "description": "L4/L7 load balancing, algorithms (round-robin, least connections), health checks, session affinity, and reverse proxies",
+      "keywords": [
+        "L4",
+        "L7",
+        "round-robin",
+        "least connections",
+        "weighted",
+        "health checks",
+        "sticky sessions",
+        "session affinity",
+        "reverse proxy",
+        "NGINX",
+        "HAProxy",
+        "AWS ELB",
+        "consistent hashing",
+        "connection pooling"
+      ],
+      "example_questions": [
+        "Design a load balancing strategy for a microservices architecture",
+        "How would you handle session management across multiple servers?",
+        "Design a global load balancer for multi-region deployment",
+        "What load balancing algorithm would you choose for video streaming?",
+        "How do you implement health checks for backend services?"
+      ],
+      "related_categories": [
+        "SCALABILITY",
+        "RELIABILITY",
+        "API_DESIGN"
+      ]
+    },
+    {
+      "category": "SCALABILITY",
+      "description": "Horizontal vs vertical scaling, partitioning strategies, microservices architecture, auto-scaling, and performance optimization",
+      "keywords": [
+        "horizontal scaling",
+        "vertical scaling",
+        "partitioning",
+        "microservices",
+        "auto-scaling",
+        "performance",
+        "throughput",
+        "latency",
+        "stateless",
+        "sharding",
+        "federation",
+        "denormalization",
+        "asynchronous processing",
+        "message queues"
+      ],
+      "example_questions": [
+        "Design a system to handle 1 million requests per second",
+        "How would you scale a monolithic application to microservices?",
+        "Design an auto-scaling strategy for e-commerce during Black Friday",
+        "How do you partition data for a ride-sharing application?",
+        "Design a notification system that handles 100 million users"
+      ],
+      "related_categories": [
+        "DATABASES",
+        "CACHING",
+        "LOAD_BALANCING",
+        "DISTRIBUTED_SYSTEMS",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "category": "RELIABILITY",
+      "description": "Fault tolerance, redundancy, disaster recovery, circuit breakers, retry mechanisms, and high availability patterns",
+      "keywords": [
+        "fault tolerance",
+        "redundancy",
+        "disaster recovery",
+        "circuit breaker",
+        "retry",
+        "failover",
+        "high availability",
+        "backup",
+        "replication",
+        "chaos engineering",
+        "graceful degradation",
+        "bulkhead pattern",
+        "timeouts",
+        "idempotency"
+      ],
+      "example_questions": [
+        "Design a payment system with 99.99% availability",
+        "How would you implement fault tolerance for a messaging service?",
+        "Design a disaster recovery plan for a global e-commerce platform",
+        "How do you handle cascading failures in microservices?",
+        "Design a circuit breaker pattern for third-party API calls"
+      ],
+      "related_categories": [
+        "DISTRIBUTED_SYSTEMS",
+        "SCALABILITY",
+        "DATABASES",
+        "LOAD_BALANCING"
+      ]
+    },
+    {
+      "category": "DISTRIBUTED_SYSTEMS",
+      "description": "CAP theorem, consensus algorithms, eventual consistency, distributed transactions, service mesh, and coordination patterns",
+      "keywords": [
+        "CAP theorem",
+        "consensus",
+        "Paxos",
+        "Raft",
+        "eventual consistency",
+        "strong consistency",
+        "distributed transactions",
+        "two-phase commit",
+        "saga pattern",
+        "service mesh",
+        "Zookeeper",
+        "etcd",
+        "vector clocks",
+        "quorum"
+      ],
+      "example_questions": [
+        "Design a distributed lock service like Chubby",
+        "How would you implement a distributed transaction across microservices?",
+        "Design a consensus algorithm for leader election",
+        "How do you handle data consistency in a multi-region deployment?",
+        "Design a distributed file system like HDFS"
+      ],
+      "related_categories": [
+        "DATABASES",
+        "SCALABILITY",
+        "RELIABILITY",
+        "API_DESIGN"
+      ]
+    },
+    {
+      "category": "API_DESIGN",
+      "description": "REST vs GraphQL vs gRPC, API versioning, rate limiting, authentication, pagination, and API gateway patterns",
+      "keywords": [
+        "REST",
+        "GraphQL",
+        "gRPC",
+        "versioning",
+        "rate limiting",
+        "authentication",
+        "OAuth",
+        "JWT",
+        "pagination",
+        "API gateway",
+        "throttling",
+        "idempotency",
+        "webhooks",
+        "WebSocket",
+        "OpenAPI"
+      ],
+      "example_questions": [
+        "Design a RESTful API for a social media platform",
+        "How would you implement rate limiting for a public API?",
+        "Design an API gateway for microservices",
+        "What authentication strategy would you use for mobile apps?",
+        "How do you version APIs without breaking existing clients?"
+      ],
+      "related_categories": [
+        "SCALABILITY",
+        "LOAD_BALANCING",
+        "DISTRIBUTED_SYSTEMS",
+        "RELIABILITY"
+      ]
+    },
+    {
+      "category": "GENERAL",
+      "description": "Catch-all for multi-topic system design content, fundamentals, full interview examples, and comprehensive guides",
+      "keywords": [
+        "system design fundamentals",
+        "architecture patterns",
+        "design principles",
+        "trade-offs",
+        "requirements gathering",
+        "capacity estimation",
+        "back-of-envelope calculations",
+        "system design interview",
+        "comprehensive guide",
+        "end-to-end design"
+      ],
+      "example_questions": [
+        "Design a URL shortener like bit.ly",
+        "Design YouTube",
+        "Design Uber",
+        "Design a web crawler",
+        "Design a search autocomplete system"
+      ],
+      "related_categories": [
+        "DATABASES",
+        "CACHING",
+        "SCALABILITY",
+        "DISTRIBUTED_SYSTEMS",
+        "API_DESIGN"
+      ]
+    }
+  ]
+}

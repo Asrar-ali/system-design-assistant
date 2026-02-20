@@ -1,0 +1,49 @@
+question,retrieval_ms,generation_ms,end_to_end_ms,status,num_chunks
+SUMMARY_STATISTICS,p50:58.1 p95:176.8 p99:286.2,p50:1400.6 p95:1536.0 p99:1557.5,p50:1474.6 p95:1625.8 p99:1733.3,47/47 success,
+How does a CDN improve website performance?,182.88,1318.51,1501.39,llm_error,5.0
+Design a rate limiter for an API,169.86,1411.5,1581.36,llm_error,5.0
+What is database sharding and when should you use it?,170.48,1437.95,1608.44,llm_error,5.0
+How do you design Twitter's newsfeed?,176.82,1442.0,1618.82,llm_error,5.0
+Explain the CAP theorem with examples,53.42,1471.84,1525.27,llm_error,5.0
+How does Redis implement caching?,51.5,1240.22,1291.73,llm_error,5.0
+Design a web crawler like Google's,58.58,1249.28,1307.86,llm_error,5.0
+How do you design a parking lot system?,58.27,1441.38,1499.65,llm_error,5.0
+What is eventual consistency?,56.58,1400.57,1457.15,llm_error,5.0
+Design YouTube's video streaming service,172.21,1453.65,1625.85,llm_error,5.0
+How does load balancing work?,54.86,1342.19,1397.06,llm_error,5.0
+Compare REST vs GraphQL APIs,57.55,1333.44,1390.99,llm_error,5.0
+How do you scale a database horizontally?,59.83,1476.13,1535.96,llm_error,5.0
+What is a Bloom filter and when to use it?,62.22,1533.58,1595.81,llm_error,5.0
+Design Instagram's photo storage,53.76,1433.47,1487.23,llm_error,5.0
+Explain database indexing strategies,56.91,1300.6,1357.51,llm_error,5.0
+How does memcached differ from Redis?,54.61,1354.23,1408.84,llm_error,5.0
+Design a chat application like WhatsApp,58.35,1346.27,1404.62,llm_error,5.0
+What are microservices and their trade-offs?,170.31,1383.15,1553.46,llm_error,5.0
+How do you implement API versioning?,54.24,1288.54,1342.78,llm_error,5.0
+Design a search autocomplete system,58.99,1400.23,1459.23,llm_error,5.0
+What is the difference between partitioning and replication?,175.84,1557.47,1733.32,llm_error,5.0
+How does HTTP caching work?,57.55,1474.99,1532.53,llm_error,5.0
+Design Uber's ride matching system,54.4,1439.12,1493.52,llm_error,5.0
+Explain message queues with examples,61.38,1402.77,1464.15,llm_error,5.0
+How do you design a notification system?,55.92,1324.6,1380.53,llm_error,5.0
+What are the benefits of denormalization?,51.97,1346.94,1398.91,llm_error,5.0
+What is ACID in database transactions?,53.97,1216.06,1270.03,llm_error,5.0
+How do you implement pagination in REST APIs?,59.0,1410.71,1469.71,llm_error,5.0
+What are the best practices for API authentication?,59.59,1418.36,1477.95,llm_error,5.0
+Compare round-robin versus least-connections load balancing,57.65,1303.75,1361.4,llm_error,5.0
+How does session persistence work in load balancers?,57.69,1454.22,1511.91,llm_error,5.0
+Design a global load balancer for multi-region deployment,49.74,1370.75,1420.49,llm_error,5.0
+Compare vertical scaling versus horizontal scaling,60.05,1549.44,1609.49,llm_error,5.0
+What are the differences between SOAP and REST?,58.14,1416.48,1474.62,llm_error,5.0
+Compare WebSocket versus Server-Sent Events for real-time updates,286.19,1356.08,1642.27,llm_error,5.0
+Cassandra versus MongoDB: when to use each?,54.72,1473.89,1528.61,llm_error,5.0
+Compare synchronous versus asynchronous request processing,54.33,1386.38,1440.72,llm_error,5.0
+Explain BASE properties in distributed databases,52.27,1320.16,1372.44,llm_error,5.0
+What is DNS and how does it work?,63.28,1536.04,1599.32,llm_error,5.0
+How does SSL/TLS encryption work?,58.64,1285.83,1344.48,llm_error,5.0
+What is CORS and why is it important?,52.21,1391.62,1443.83,llm_error,5.0
+How does Netflix handle video streaming at scale?,68.81,1358.31,1427.13,llm_error,5.0
+What database does Uber use for geospatial queries?,131.29,1482.8,1614.1,llm_error,5.0
+How does Google handle billions of searches per day?,80.67,1513.7,1594.38,llm_error,5.0
+Design a file sharing service like Dropbox,55.01,1440.17,1495.18,llm_error,5.0
+How do you design a real-time analytics dashboard?,49.47,1307.76,1357.23,llm_error,5.0

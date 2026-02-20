@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://medium.com/netflix-techblog",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "scalability",
+      "distributed_systems",
+      "caching"
+    ],
+    "authority_level": "high",
+    "title": "Netflix TechBlog",
+    "author": "Netflix",
+    "validated": true,
+    "validation_notes": "Sample articles on Medium contain 1000-3000 words each, strong system design focus (microservices, scalability, data infrastructure), verified via manual inspection",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 80
+  },
+  {
+    "url": "https://engineering.fb.com",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "scalability",
+      "distributed_systems",
+      "databases"
+    ],
+    "authority_level": "high",
+    "title": "Meta Engineering",
+    "author": "Meta",
+    "validated": true,
+    "validation_notes": "Engineering posts on infrastructure, distributed systems, and databases average 800-2000 words, high technical depth, verified via manual inspection of architecture posts",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 75
+  },
+  {
+    "url": "https://www.uber.com/blog/engineering",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "distributed_systems",
+      "microservices",
+      "real_time"
+    ],
+    "authority_level": "high",
+    "title": "Uber Engineering Blog",
+    "author": "Uber",
+    "validated": true,
+    "validation_notes": "Archive contains detailed system design posts (1500-3000 words) on microservices, real-time systems, and infrastructure, verified via blog archive inspection",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 70
+  },
+  {
+    "url": "https://stripe.com/blog/engineering",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "scalability",
+      "reliability",
+      "databases"
+    ],
+    "authority_level": "high",
+    "title": "Stripe Engineering Blog",
+    "author": "Stripe",
+    "validated": true,
+    "validation_notes": "Sample post extracted 1311 words, technical depth appropriate, link density 25.01%",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 60
+  },
+  {
+    "url": "https://aws.amazon.com/blogs/architecture",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "scalability",
+      "distributed_systems",
+      "cloud_architecture"
+    ],
+    "authority_level": "high",
+    "title": "AWS Architecture Blog",
+    "author": "Amazon Web Services",
+    "validated": true,
+    "validation_notes": "Sample post extracted 624 words, technical depth appropriate, link density 20.04%",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 90
+  },
+  {
+    "url": "https://martinfowler.com",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "architecture",
+      "microservices",
+      "design_patterns"
+    ],
+    "authority_level": "high",
+    "title": "Martin Fowler",
+    "author": "Martin Fowler",
+    "validated": true,
+    "validation_notes": "Sample post extracted 2678 words, technical depth appropriate, link density 8.80%",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 50
+  },
+  {
+    "url": "https://engineeringblog.yelp.com",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "scalability",
+      "microservices",
+      "search"
+    ],
+    "authority_level": "medium",
+    "title": "Yelp Engineering Blog",
+    "author": "Yelp",
+    "validated": true,
+    "validation_notes": "Sample post extracted 1047 words, technical depth appropriate, link density 16.92%",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 55
+  },
+  {
+    "url": "https://www.confluent.io/blog",
+    "source_type": "blog_post",
+    "topic_categories": [
+      "streaming",
+      "distributed_systems",
+      "event_driven"
+    ],
+    "authority_level": "high",
+    "title": "Confluent Blog",
+    "author": "Confluent",
+    "validated": true,
+    "validation_notes": "Sample post extracted 1229 words, technical depth appropriate, link density 21.82%",
+    "curated_date": "2026-02-07T20:08:37.326898Z",
+    "estimated_chunks": 65
+  }
+]
